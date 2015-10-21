@@ -1,0 +1,108 @@
+2015-10-12 06:14:53 [-][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'user' already exists' in C:\xampp\htdocs\yii2-app-advanced\vendor\yiisoft\yii2\db\Command.php:781
+Stack trace:
+#0 C:\xampp\htdocs\yii2-app-advanced\vendor\yiisoft\yii2\db\Command.php(781): PDOStatement->execute()
+#1 C:\xampp\htdocs\yii2-app-advanced\vendor\yiisoft\yii2\db\Migration.php(260): yii\db\Command->execute()
+#2 C:\xampp\htdocs\yii2-app-advanced\console\migrations\m130524_201442_init.php(27): yii\db\Migration->createTable('{{%user}}', Array, 'CHARACTER SET u...')
+#3 C:\xampp\htdocs\yii2-app-advanced\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(492): m130524_201442_init->up()
+#4 C:\xampp\htdocs\yii2-app-advanced\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(129): yii\console\controllers\BaseMigrateController->migrateUp('m130524_201442_...')
+#5 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#6 C:\xampp\htdocs\yii2-app-advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#7 C:\xampp\htdocs\yii2-app-advanced\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\yii2-app-advanced\vendor\yiisoft\yii2\console\Controller.php(91): yii\base\Controller->runAction('', Array)
+#9 C:\xampp\htdocs\yii2-app-advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\console\Controller->runAction('', Array)
+#10 C:\xampp\htdocs\yii2-app-advanced\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction('migrate', Array)
+#11 C:\xampp\htdocs\yii2-app-advanced\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('migrate', Array)
+#12 C:\xampp\htdocs\yii2-app-advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#13 C:\xampp\htdocs\yii2-app-advanced\yii(27): yii\base\Application->run()
+#14 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'user' already exists
+The SQL being executed was: CREATE TABLE `user` (
+	`id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	`username` varchar(255) NOT NULL UNIQUE,
+	`auth_key` varchar(32) NOT NULL,
+	`password_hash` varchar(255) NOT NULL,
+	`password_reset_token` varchar(255) UNIQUE,
+	`email` varchar(255) NOT NULL UNIQUE,
+	`status` smallint(6) NOT NULL DEFAULT 10,
+	`created_at` int(11) NOT NULL,
+	`updated_at` int(11) NOT NULL
+) CHARACTER SET utf8 COLLATE utf8_unicode_ci ENGINE=InnoDB' in C:\xampp\htdocs\yii2-app-advanced\vendor\yiisoft\yii2\db\Schema.php:628
+Stack trace:
+#0 C:\xampp\htdocs\yii2-app-advanced\vendor\yiisoft\yii2\db\Command.php(791): yii\db\Schema->convertException(Object(PDOException), 'CREATE TABLE `u...')
+#1 C:\xampp\htdocs\yii2-app-advanced\vendor\yiisoft\yii2\db\Migration.php(260): yii\db\Command->execute()
+#2 C:\xampp\htdocs\yii2-app-advanced\console\migrations\m130524_201442_init.php(27): yii\db\Migration->createTable('{{%user}}', Array, 'CHARACTER SET u...')
+#3 C:\xampp\htdocs\yii2-app-advanced\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(492): m130524_201442_init->up()
+#4 C:\xampp\htdocs\yii2-app-advanced\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(129): yii\console\controllers\BaseMigrateController->migrateUp('m130524_201442_...')
+#5 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#6 C:\xampp\htdocs\yii2-app-advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#7 C:\xampp\htdocs\yii2-app-advanced\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\yii2-app-advanced\vendor\yiisoft\yii2\console\Controller.php(91): yii\base\Controller->runAction('', Array)
+#9 C:\xampp\htdocs\yii2-app-advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\console\Controller->runAction('', Array)
+#10 C:\xampp\htdocs\yii2-app-advanced\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction('migrate', Array)
+#11 C:\xampp\htdocs\yii2-app-advanced\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('migrate', Array)
+#12 C:\xampp\htdocs\yii2-app-advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#13 C:\xampp\htdocs\yii2-app-advanced\yii(27): yii\base\Application->run()
+#14 {main}
+Additional Information:
+Array
+(
+    [0] => 42S01
+    [1] => 1050
+    [2] => Table 'user' already exists
+)
+
+2015-10-12 06:14:46 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\AMD Kanang\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'KANANG'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\AMD Kanang'
+    'LOCALAPPDATA' => 'C:\\Users\\AMD Kanang\\AppData\\Local'
+    'LOGONSERVER' => '\\\\KANANG'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'AMD64 Family 22 Model 48 Stepping 1, AuthenticAMD'
+    'PROCESSOR_LEVEL' => '22'
+    'PROCESSOR_REVISION' => '3001'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\AMDKAN~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\AMDKAN~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'kanang'
+    'USERDOMAIN_ROAMINGPROFILE' => 'kanang'
+    'USERNAME' => 'AMD Kanang'
+    'USERPROFILE' => 'C:\\Users\\AMD Kanang'
+    'windir' => 'C:\\Windows'
+    'YII_PATH' => 'C:\\xampp\\htdocs\\yii2-app-advanced\\'
+    'PHP_SELF' => 'C:\\xampp\\htdocs\\yii2-app-advanced\\yii'
+    'SCRIPT_NAME' => 'C:\\xampp\\htdocs\\yii2-app-advanced\\yii'
+    'SCRIPT_FILENAME' => 'C:\\xampp\\htdocs\\yii2-app-advanced\\yii'
+    'PATH_TRANSLATED' => 'C:\\xampp\\htdocs\\yii2-app-advanced\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1444623286.9799
+    'REQUEST_TIME' => 1444623286
+    'argv' => [
+        0 => 'C:\\xampp\\htdocs\\yii2-app-advanced\\yii'
+        1 => 'migrate'
+    ]
+    'argc' => 2
+]

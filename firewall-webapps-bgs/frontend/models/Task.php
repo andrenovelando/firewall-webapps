@@ -24,6 +24,7 @@ class Task extends \yii\db\ActiveRecord
      * @inheritdoc
      */
     public $socmed;
+    public $jenisFilter;
 
     public static function tableName()
     {

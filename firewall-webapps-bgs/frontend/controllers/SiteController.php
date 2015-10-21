@@ -29,10 +29,10 @@ class SiteController extends Controller
         return [
             'access' => [
                 'class' => AccessControl::className(),
-                'only' => ['logout', 'index',],
+                'only' => ['logout', 'index', 'resultklasifikasi', 'resultmap', 'resultnetworkfb', 'resultnetworktwitter', 'resulttagcloud', 'resultsentiment', 'reportweb', 'monitoring'],
                 'rules' => [
                     [
-                        'actions' => ['logout', 'index'],
+                        'actions' => ['logout', 'index','resultklasifikasi', 'resultmap', 'resultnetworkfb', 'resultnetworktwitter', 'resulttagcloud', 'resultsentiment', 'reportweb', 'monitoring'],
                         'allow' => true,
                         'roles' => ['@'],
                     ],
@@ -211,14 +211,6 @@ public function actionResultklasifikasi()
         }
     }
 
-public function actionResultmap()
-    {
-        if(($role = priviledge::getRole()) != 'Admin'){  
-            return $this->render('resultmap');
-        }else{
-            throw new ForbiddenHttpException;
-        }
-    }
 public function actionResultnetworkfb()
     {
         if(($role = priviledge::getRole()) != 'Admin'){
@@ -251,6 +243,73 @@ public function actionResultsentiment()
             throw new ForbiddenHttpException;
         }
     }	
+
+    public function actionResultmapall()
+    {
+        if(($role = priviledge::getRole()) != 'Admin'){  
+            return $this->render('resultmapall');
+        }else{
+            throw new ForbiddenHttpException;
+        }
+    }
+
+public function actionResultmapradikalisme()
+    {
+        if(($role = priviledge::getRole()) != 'Admin'){  
+            return $this->render('resultmapradikalisme');
+        }else{
+            throw new ForbiddenHttpException;
+        }
+    }
+
+public function actionResultmapterorisme()
+    {
+        if(($role = priviledge::getRole()) != 'Admin'){  
+            return $this->render('resultmapterorisme');
+        }else{
+            throw new ForbiddenHttpException;
+        }
+    }
+    public function actionResultmapjudionline()
+    {
+        if(($role = priviledge::getRole()) != 'Admin'){  
+            return $this->render('resultmapjudionline');
+        }else{
+            throw new ForbiddenHttpException;
+        }
+    }
+    public function actionResultmapnarkoba()
+    {
+        if(($role = priviledge::getRole()) != 'Admin'){  
+            return $this->render('resultmapnarkoba');
+        }else{
+            throw new ForbiddenHttpException;
+        }
+    }
+    public function actionResultmappornografi()
+    {
+        if(($role = priviledge::getRole()) != 'Admin'){  
+            return $this->render('resultmappornografi');
+        }else{
+            throw new ForbiddenHttpException;
+        }
+    }
+    public function actionResultmapprostitusi()
+    {
+        if(($role = priviledge::getRole()) != 'Admin'){  
+            return $this->render('resultmapprostitusi');
+        }else{
+            throw new ForbiddenHttpException;
+        }
+    }
+    public function actionResultmapseparatisme()
+    {
+        if(($role = priviledge::getRole()) != 'Admin'){  
+            return $this->render('resultmapseparatisme');
+        }else{
+            throw new ForbiddenHttpException;
+        }
+    }
 	
 /*
 REPORT CONTROLLER
@@ -264,29 +323,12 @@ public function actionReportweb()
         }
     }
 
-	public function actionCrawling()
+	public function actionMonitoring()
     {
         if(($role = priviledge::getRole()) == 'Praktikan'){
-            return $this->render('crawling');
+            return $this->render('monitoring');
         }else{
             throw new ForbiddenHttpException;
         }
     }
-    public function actionCleaning()
-    {
-        if(($role = priviledge::getRole()) == 'Praktikan'){
-            return $this->render('cleaning');
-        }else{
-            throw new ForbiddenHttpException;
-        }
-    }
-    public function actionClassification()
-    {
-        if(($role = priviledge::getRole()) == 'Praktikan'){
-            return $this->render('classification');
-        }else{
-            throw new ForbiddenHttpException;
-        }
-    }
-	
 }

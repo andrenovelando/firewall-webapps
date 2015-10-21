@@ -128,6 +128,7 @@ $this->
 					</div>
 				</div>
 			</div>
+			
 			<!-- /.box-body -->
 		</div>
 	</div>

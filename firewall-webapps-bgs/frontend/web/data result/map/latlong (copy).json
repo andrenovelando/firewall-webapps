@@ -1,0 +1,2677 @@
+[
+  {
+    "FIELD1":"sumatera",
+    "FIELD2":-0.589724,
+    "FIELD3":101.34311
+  },
+  {
+    "FIELD1":"aceh",
+    "FIELD2":4.695135,
+    "FIELD3":96.7494
+  },
+  {
+    "FIELD1":"kabupaten aceh barat",
+    "FIELD2":4.4542747,
+    "FIELD3":96.152695
+  },
+  {
+    "FIELD1":"kabupaten aceh barat daya",
+    "FIELD2":3.7963426,
+    "FIELD3":97.006836
+  },
+  {
+    "FIELD1":"kabupaten aceh besar",
+    "FIELD2":5.4529166,
+    "FIELD3":95.47778
+  },
+  {
+    "FIELD1":"kabupaten aceh jaya",
+    "FIELD2":4.7873683,
+    "FIELD3":95.6458
+  },
+  {
+    "FIELD1":"kabupaten aceh selatan",
+    "FIELD2":3.3115056,
+    "FIELD3":97.351654
+  },
+  {
+    "FIELD1":"kabupaten aceh singkil",
+    "FIELD2":2.3589458,
+    "FIELD3":97.87216
+  },
+  {
+    "FIELD1":"kabupaten aceh tamiang",
+    "FIELD2":4.2328873,
+    "FIELD3":98.00289
+  },
+  {
+    "FIELD1":"kabupaten aceh tengah",
+    "FIELD2":4.448264,
+    "FIELD3":96.8351
+  },
+  {
+    "FIELD1":"kabupaten aceh tenggara",
+    "FIELD2":3.3088665,
+    "FIELD3":97.69823
+  },
+  {
+    "FIELD1":"kabupaten aceh timur",
+    "FIELD2":4.522411,
+    "FIELD3":97.61142
+  },
+  {
+    "FIELD1":"kabupaten aceh utara",
+    "FIELD2":4.978633,
+    "FIELD3":97.222145
+  },
+  {
+    "FIELD1":"kabupaten bener meriah",
+    "FIELD2":4.7513604,
+    "FIELD3":96.95252
+  },
+  {
+    "FIELD1":"kabupaten bireuen",
+    "FIELD2":5.1086445,
+    "FIELD3":96.66381
+  },
+  {
+    "FIELD1":"kabupaten gayo lues",
+    "FIELD2":3.955165,
+    "FIELD3":97.351654
+  },
+  {
+    "FIELD1":"kabupaten nagan raya",
+    "FIELD2":4.1248407,
+    "FIELD3":96.49298
+  },
+  {
+    "FIELD1":"kabupaten pidie",
+    "FIELD2":5.3704133,
+    "FIELD3":95.935684
+  },
+  {
+    "FIELD1":"kabupaten pidie jaya",
+    "FIELD2":5.154806,
+    "FIELD3":96.19513
+  },
+  {
+    "FIELD1":"kabupaten simeulue",
+    "FIELD2":2.6439724,
+    "FIELD3":96.02557
+  },
+  {
+    "FIELD1":"kota banda aceh",
+    "FIELD2":5.5482903,
+    "FIELD3":95.32375
+  },
+  {
+    "FIELD1":"kota langsa",
+    "FIELD2":4.47578,
+    "FIELD3":97.9641
+  },
+  {
+    "FIELD1":"kota lhokseumawe",
+    "FIELD2":5.181164,
+    "FIELD3":97.14132
+  },
+  {
+    "FIELD1":"kota sabang",
+    "FIELD2":5.880241,
+    "FIELD3":95.33657
+  },
+  {
+    "FIELD1":"kota subulussalam",
+    "FIELD2":2.6449926,
+    "FIELD3":98.01652
+  },
+  {
+    "FIELD1":"sumatera utara",
+    "FIELD2":2.0108564,
+    "FIELD3":98.978485
+  },
+  {
+    "FIELD1":"kabupaten asahan",
+    "FIELD2":2.8174722,
+    "FIELD3":99.63413
+  },
+  {
+    "FIELD1":"kabupaten batubara",
+    "FIELD2":-6.8878236,
+    "FIELD3":107.96047
+  },
+  {
+    "FIELD1":"kabupaten dairi",
+    "FIELD2":2.8675802,
+    "FIELD3":98.26506
+  },
+  {
+    "FIELD1":"kabupaten deli serdang",
+    "FIELD2":3.42018,
+    "FIELD3":98.70408
+  },
+  {
+    "FIELD1":"kabupaten humbang hasundutan",
+    "FIELD2":2.1988509,
+    "FIELD3":98.572105
+  },
+  {
+    "FIELD1":"kabupaten karo",
+    "FIELD2":3.105291,
+    "FIELD3":98.26506
+  },
+  {
+    "FIELD1":"kabupaten labuhanbatu",
+    "FIELD2":2.3439863,
+    "FIELD3":100.17033
+  },
+  {
+    "FIELD1":"kabupaten labuhanbatu selatan",
+    "FIELD2":1.8799353,
+    "FIELD3":100.17033
+  },
+  {
+    "FIELD1":"kabupaten labuhanbatu utara",
+    "FIELD2":2.3465638,
+    "FIELD3":99.81249
+  },
+  {
+    "FIELD1":"kabupaten langkat",
+    "FIELD2":3.8653915,
+    "FIELD3":98.308846
+  },
+  {
+    "FIELD1":"kabupaten mandailing natal",
+    "FIELD2":0.7432372,
+    "FIELD3":99.36731
+  },
+  {
+    "FIELD1":"kabupaten nias",
+    "FIELD2":1.0869443,
+    "FIELD3":97.74167
+  },
+  {
+    "FIELD1":"kabupaten nias barat",
+    "FIELD2":1.0116383,
+    "FIELD3":97.481415
+  },
+  {
+    "FIELD1":"kabupaten nias selatan",
+    "FIELD2":0.7086091,
+    "FIELD3":97.828636
+  },
+  {
+    "FIELD1":"kabupaten nias utara",
+    "FIELD2":1.3166035,
+    "FIELD3":97.39488
+  },
+  {
+    "FIELD1":"kabupaten padang lawas",
+    "FIELD2":1.1186976,
+    "FIELD3":99.81249
+  },
+  {
+    "FIELD1":"kabupaten padang lawas utara",
+    "FIELD2":1.5758644,
+    "FIELD3":99.63413
+  },
+  {
+    "FIELD1":"kabupaten pakpak bharat",
+    "FIELD2":2.5135376,
+    "FIELD3":98.2213
+  },
+  {
+    "FIELD1":"kabupaten samosir",
+    "FIELD2":2.627443,
+    "FIELD3":98.79218
+  },
+  {
+    "FIELD1":"kabupaten serdang bedagai",
+    "FIELD2":3.3371694,
+    "FIELD3":99.057106
+  },
+  {
+    "FIELD1":"kabupaten simalungun",
+    "FIELD2":2.978161,
+    "FIELD3":99.27856
+  },
+  {
+    "FIELD1":"kabupaten tapanuli selatan",
+    "FIELD2":1.5774933,
+    "FIELD3":99.27856
+  },
+  {
+    "FIELD1":"kabupaten tapanuli tengah",
+    "FIELD2":1.84933,
+    "FIELD3":98.70408
+  },
+  {
+    "FIELD1":"kabupaten tapanuli utara",
+    "FIELD2":2.0405245,
+    "FIELD3":99.10135
+  },
+  {
+    "FIELD1":"kabupaten toba samosir",
+    "FIELD2":2.3502398,
+    "FIELD3":99.27856
+  },
+  {
+    "FIELD1":"kota binjai",
+    "FIELD2":3.6135483,
+    "FIELD3":98.502525
+  },
+  {
+    "FIELD1":"kota gunungsitoli",
+    "FIELD2":1.2783138,
+    "FIELD3":97.60842
+  },
+  {
+    "FIELD1":"kota medan",
+    "FIELD2":3.5951955,
+    "FIELD3":98.672226
+  },
+  {
+    "FIELD1":"kota padangsidempuan",
+    "FIELD2":1.3721801,
+    "FIELD3":99.27302
+  },
+  {
+    "FIELD1":"kota pematangsiantar",
+    "FIELD2":2.965147,
+    "FIELD3":99.06264
+  },
+  {
+    "FIELD1":"kota sibolga",
+    "FIELD2":1.7368371,
+    "FIELD3":98.78511
+  },
+  {
+    "FIELD1":"kota tanjungbalai",
+    "FIELD2":2.9662347,
+    "FIELD3":99.798546
+  },
+  {
+    "FIELD1":"kota tebing tinggi",
+    "FIELD2":3.3805315,
+    "FIELD3":99.20827
+  },
+  {
+    "FIELD1":"bengkulu",
+    "FIELD2":-3.792845,
+    "FIELD3":102.260765
+  },
+  {
+    "FIELD1":"kabupaten bengkulu selatan",
+    "FIELD2":-4.324841,
+    "FIELD3":103.03569
+  },
+  {
+    "FIELD1":"kabupaten bengkulu tengah",
+    "FIELD2":-3.792845,
+    "FIELD3":102.260765
+  },
+  {
+    "FIELD1":"kabupaten bengkulu utara",
+    "FIELD2":-3.2663245,
+    "FIELD3":101.98046
+  },
+  {
+    "FIELD1":"kabupaten kaur",
+    "FIELD2":-4.521598,
+    "FIELD3":103.26635
+  },
+  {
+    "FIELD1":"kabupaten kepahiang",
+    "FIELD2":-3.6441941,
+    "FIELD3":102.564224
+  },
+  {
+    "FIELD1":"kabupaten lebong",
+    "FIELD2":-3.1455095,
+    "FIELD3":102.20902
+  },
+  {
+    "FIELD1":"kabupaten mukomuko",
+    "FIELD2":-2.6449113,
+    "FIELD3":101.433914
+  },
+  {
+    "FIELD1":"kabupaten rejang lebong",
+    "FIELD2":-3.4548154,
+    "FIELD3":102.66756
+  },
+  {
+    "FIELD1":"kabupaten seluma",
+    "FIELD2":-4.0499387,
+    "FIELD3":102.71351
+  },
+  {
+    "FIELD1":"kota bengkulu",
+    "FIELD2":-3.792845,
+    "FIELD3":102.260765
+  },
+  {
+    "FIELD1":"jambi",
+    "FIELD2":-1.6101229,
+    "FIELD3":103.61312
+  },
+  {
+    "FIELD1":"kabupaten batanghari",
+    "FIELD2":-1.7083921,
+    "FIELD3":103.08179
+  },
+  {
+    "FIELD1":"kabupaten bungo",
+    "FIELD2":-1.6401339,
+    "FIELD3":101.889175
+  },
+  {
+    "FIELD1":"kabupaten kerinci",
+    "FIELD2":-1.8720467,
+    "FIELD3":101.433914
+  },
+  {
+    "FIELD1":"kabupaten merangin",
+    "FIELD2":-2.175279,
+    "FIELD3":101.98046
+  },
+  {
+    "FIELD1":"kabupaten muaro jambi",
+    "FIELD2":-1.6101229,
+    "FIELD3":103.61312
+  },
+  {
+    "FIELD1":"kabupaten sarolangun",
+    "FIELD2":-2.3230422,
+    "FIELD3":102.71351
+  },
+  {
+    "FIELD1":"kabupaten tanjung jabung barat",
+    "FIELD2":-1.105846,
+    "FIELD3":103.08179
+  },
+  {
+    "FIELD1":"kabupaten tanjung jabung timur",
+    "FIELD2":-1.1024367,
+    "FIELD3":103.821625
+  },
+  {
+    "FIELD1":"kabupaten tebo",
+    "FIELD2":-1.2592999,
+    "FIELD3":102.34639
+  },
+  {
+    "FIELD1":"kota jambi",
+    "FIELD2":-1.6101229,
+    "FIELD3":103.61312
+  },
+  {
+    "FIELD1":"kota sungai penuh",
+    "FIELD2":-2.0689344,
+    "FIELD3":101.416885
+  },
+  {
+    "FIELD1":"riau ",
+    "FIELD2":0.2933469,
+    "FIELD3":101.70683
+  },
+  {
+    "FIELD1":"kabupaten bengkalis",
+    "FIELD2":1.489214,
+    "FIELD3":102.0801
+  },
+  {
+    "FIELD1":"kabupaten indragiri hilir",
+    "FIELD2":-0.1456733,
+    "FIELD3":102.98962
+  },
+  {
+    "FIELD1":"kabupaten indragiri hulu",
+    "FIELD2":-0.7361181,
+    "FIELD3":102.25479
+  },
+  {
+    "FIELD1":"kabupaten kampar",
+    "FIELD2":0.146671,
+    "FIELD3":101.161736
+  },
+  {
+    "FIELD1":"kabupaten kuantan singingi",
+    "FIELD2":-0.4411596,
+    "FIELD3":101.5248
+  },
+  {
+    "FIELD1":"kabupaten pelalawan",
+    "FIELD2":0.5139797,
+    "FIELD3":102.16327
+  },
+  {
+    "FIELD1":"kabupaten rokan hilir",
+    "FIELD2":1.6463978,
+    "FIELD3":100.8
+  },
+  {
+    "FIELD1":"kabupaten rokan hulu",
+    "FIELD2":1.0410933,
+    "FIELD3":100.43966
+  },
+  {
+    "FIELD1":"kabupaten siak",
+    "FIELD2":0.8118812,
+    "FIELD3":101.79796
+  },
+  {
+    "FIELD1":"kabupaten kepulauan meranti",
+    "FIELD2":0.9208765,
+    "FIELD3":102.66756
+  },
+  {
+    "FIELD1":"kota dumai",
+    "FIELD2":1.6666349,
+    "FIELD3":101.400185
+  },
+  {
+    "FIELD1":"kota pekanbaru",
+    "FIELD2":0.5070677,
+    "FIELD3":101.44778
+  },
+  {
+    "FIELD1":"sumatera barat ",
+    "FIELD2":-0.7399397,
+    "FIELD3":100.8
+  },
+  {
+    "FIELD1":"kabupaten agam",
+    "FIELD2":-0.2209392,
+    "FIELD3":100.17033
+  },
+  {
+    "FIELD1":"kabupaten dharmasraya",
+    "FIELD2":-1.1120569,
+    "FIELD3":101.615776
+  },
+  {
+    "FIELD1":"kabupaten kepulauan mentawai",
+    "FIELD2":-1.426001,
+    "FIELD3":98.92454
+  },
+  {
+    "FIELD1":"kabupaten lima puluh kota",
+    "FIELD2":0.0734192,
+    "FIELD3":100.52961
+  },
+  {
+    "FIELD1":"kabupaten padang pariaman",
+    "FIELD2":-0.5546757,
+    "FIELD3":100.21516
+  },
+  {
+    "FIELD1":"kabupaten pasaman",
+    "FIELD2":0.1288752,
+    "FIELD3":99.79018
+  },
+  {
+    "FIELD1":"kabupaten pasaman barat",
+    "FIELD2":0.2213005,
+    "FIELD3":99.63413
+  },
+  {
+    "FIELD1":"kabupaten pesisir selatan",
+    "FIELD2":-1.7223147,
+    "FIELD3":100.89031
+  },
+  {
+    "FIELD1":"kabupaten sijunjung",
+    "FIELD2":-0.710678,
+    "FIELD3":100.9764
+  },
+  {
+    "FIELD1":"kabupaten solok",
+    "FIELD2":-0.7885335,
+    "FIELD3":100.65498
+  },
+  {
+    "FIELD1":"kabupaten solok selatan",
+    "FIELD2":-1.4157329,
+    "FIELD3":101.25238
+  },
+  {
+    "FIELD1":"kabupaten tanah datar",
+    "FIELD2":-0.4797043,
+    "FIELD3":100.57462
+  },
+  {
+    "FIELD1":"kota bukittinggi",
+    "FIELD2":-0.3039178,
+    "FIELD3":100.38348
+  },
+  {
+    "FIELD1":"kota padang",
+    "FIELD2":-0.9470832,
+    "FIELD3":100.41718
+  },
+  {
+    "FIELD1":"kota padangpanjang",
+    "FIELD2":-0.4652798,
+    "FIELD3":100.39923
+  },
+  {
+    "FIELD1":"kota pariaman",
+    "FIELD2":-0.6115939,
+    "FIELD3":100.133675
+  },
+  {
+    "FIELD1":"kota payakumbuh",
+    "FIELD2":-0.2298336,
+    "FIELD3":100.63092
+  },
+  {
+    "FIELD1":"kota sawahlunto",
+    "FIELD2":-0.5966493,
+    "FIELD3":100.73561
+  },
+  {
+    "FIELD1":"kota solok",
+    "FIELD2":-0.7885335,
+    "FIELD3":100.65498
+  },
+  {
+    "FIELD1":"sumatera selatan ",
+    "FIELD2":-3.3194375,
+    "FIELD3":103.9144
+  },
+  {
+    "FIELD1":"kabupaten banyuasin",
+    "FIELD2":-3.0956538,
+    "FIELD3":103.08179
+  },
+  {
+    "FIELD1":"kabupaten empat lawang",
+    "FIELD2":-3.728603,
+    "FIELD3":102.89751
+  },
+  {
+    "FIELD1":"kabupaten lahat",
+    "FIELD2":-3.785627,
+    "FIELD3":103.5408
+  },
+  {
+    "FIELD1":"kabupaten muara enim",
+    "FIELD2":-3.7114162,
+    "FIELD3":104.00723
+  },
+  {
+    "FIELD1":"kabupaten musi banyuasin",
+    "FIELD2":-2.5442028,
+    "FIELD3":103.72892
+  },
+  {
+    "FIELD1":"kabupaten musi rawas",
+    "FIELD2":-3.0956538,
+    "FIELD3":103.08179
+  },
+  {
+    "FIELD1":"kabupaten ogan ilir",
+    "FIELD2":-3.426544,
+    "FIELD3":104.612144
+  },
+  {
+    "FIELD1":"kabupaten ogan komering ilir",
+    "FIELD2":-3.4559743,
+    "FIELD3":105.21948
+  },
+  {
+    "FIELD1":"kabupaten ogan komering ulu",
+    "FIELD2":-4.0283484,
+    "FIELD3":104.00723
+  },
+  {
+    "FIELD1":"kabupaten ogan komering ulu selatan",
+    "FIELD2":-4.6681952,
+    "FIELD3":104.00723
+  },
+  {
+    "FIELD1":"kabupaten ogan komering ulu timur",
+    "FIELD2":-3.8567934,
+    "FIELD3":104.75209
+  },
+  {
+    "FIELD1":"kota lubuklinggau",
+    "FIELD2":-3.2995858,
+    "FIELD3":102.85724
+  },
+  {
+    "FIELD1":"kota pagar alam",
+    "FIELD2":-4.0419617,
+    "FIELD3":103.22788
+  },
+  {
+    "FIELD1":"kota palembang",
+    "FIELD2":-2.9760735,
+    "FIELD3":104.77543
+  },
+  {
+    "FIELD1":"kota prabumulih",
+    "FIELD2":-3.4213707,
+    "FIELD3":104.24368
+  },
+  {
+    "FIELD1":"lampung ",
+    "FIELD2":-4.5585847,
+    "FIELD3":105.40681
+  },
+  {
+    "FIELD1":"kabupaten lampung barat",
+    "FIELD2":-5.1095295,
+    "FIELD3":104.14661
+  },
+  {
+    "FIELD1":"kabupaten lampung selatan",
+    "FIELD2":-5.5622616,
+    "FIELD3":105.54744
+  },
+  {
+    "FIELD1":"kabupaten lampung tengah",
+    "FIELD2":-4.8008084,
+    "FIELD3":105.31312
+  },
+  {
+    "FIELD1":"kabupaten lampung timur",
+    "FIELD2":-5.1134996,
+    "FIELD3":105.68818
+  },
+  {
+    "FIELD1":"kabupaten lampung utara",
+    "FIELD2":-4.8133907,
+    "FIELD3":104.75209
+  },
+  {
+    "FIELD1":"kabupaten mesuji",
+    "FIELD2":-4.0044785,
+    "FIELD3":105.31312
+  },
+  {
+    "FIELD1":"kabupaten pesawaran",
+    "FIELD2":-5.493245,
+    "FIELD3":105.079124
+  },
+  {
+    "FIELD1":"kabupaten pringsewu",
+    "FIELD2":-5.3331184,
+    "FIELD3":104.98562
+  },
+  {
+    "FIELD1":"kabupaten tanggamus",
+    "FIELD2":-5.3027487,
+    "FIELD3":104.56553
+  },
+  {
+    "FIELD1":"kabupaten tulang bawang",
+    "FIELD2":-7.086562,
+    "FIELD3":110.28501
+  },
+  {
+    "FIELD1":"kabupaten tulang bawang barat",
+    "FIELD2":-4.61548,
+    "FIELD3":105.11225
+  },
+  {
+    "FIELD1":"kabupaten way kanan",
+    "FIELD2":-4.496369,
+    "FIELD3":104.56553
+  },
+  {
+    "FIELD1":"kota bandar lampung",
+    "FIELD2":-5.3971395,
+    "FIELD3":105.26679
+  },
+  {
+    "FIELD1":"kota metro",
+    "FIELD2":-5.1178393,
+    "FIELD3":105.30727
+  },
+  {
+    "FIELD1":"kepulauan bangka belitung",
+    "FIELD2":-2.7410512,
+    "FIELD3":106.44059
+  },
+  {
+    "FIELD1":"kabupaten bangka",
+    "FIELD2":-1.874294,
+    "FIELD3":105.92299
+  },
+  {
+    "FIELD1":"kabupaten bangka barat",
+    "FIELD2":-1.8405046,
+    "FIELD3":105.50055
+  },
+  {
+    "FIELD1":"kabupaten bangka selatan",
+    "FIELD2":-2.7410512,
+    "FIELD3":106.44059
+  },
+  {
+    "FIELD1":"kabupaten bangka tengah",
+    "FIELD2":-2.4007823,
+    "FIELD3":106.20515
+  },
+  {
+    "FIELD1":"kabupaten belitung",
+    "FIELD2":-2.7216742,
+    "FIELD3":107.76362
+  },
+  {
+    "FIELD1":"kabupaten belitung timur",
+    "FIELD2":-2.8678038,
+    "FIELD3":108.14287
+  },
+  {
+    "FIELD1":"kota pangkal pinang",
+    "FIELD2":-2.1316266,
+    "FIELD3":106.11693
+  },
+  {
+    "FIELD1":"kepulauan riau",
+    "FIELD2":3.9456513,
+    "FIELD3":108.14287
+  },
+  {
+    "FIELD1":"kabupaten bintan",
+    "FIELD2":1.0619173,
+    "FIELD3":104.51892
+  },
+  {
+    "FIELD1":"kabupaten karimun",
+    "FIELD2":0.7697665,
+    "FIELD3":103.404945
+  },
+  {
+    "FIELD1":"kabupaten kepulauan anambas",
+    "FIELD2":2.923624,
+    "FIELD3":105.75859
+  },
+  {
+    "FIELD1":"kabupaten lingga",
+    "FIELD2":1.366882,
+    "FIELD3":111.16323
+  },
+  {
+    "FIELD1":"kabupaten natuna",
+    "FIELD2":3.9456513,
+    "FIELD3":108.14287
+  },
+  {
+    "FIELD1":"kota batam",
+    "FIELD2":1.0456264,
+    "FIELD3":104.03046
+  },
+  {
+    "FIELD1":"kota tanjung pinang",
+    "FIELD2":0.9185504,
+    "FIELD3":104.46651
+  },
+  {
+    "FIELD1":"jawa",
+    "FIELD2":-7.3281875,
+    "FIELD3":109.90769
+  },
+  {
+    "FIELD1":"banten",
+    "FIELD2":-6.405817,
+    "FIELD3":106.06402
+  },
+  {
+    "FIELD1":"kabupaten tangerang",
+    "FIELD2":-6.2023935,
+    "FIELD3":106.65271
+  },
+  {
+    "FIELD1":"kabupaten serang",
+    "FIELD2":-6.110366,
+    "FIELD3":106.16398
+  },
+  {
+    "FIELD1":"kabupaten lebak",
+    "FIELD2":-6.5643954,
+    "FIELD3":106.25221
+  },
+  {
+    "FIELD1":"kabupaten pandeglang",
+    "FIELD2":-6.327061,
+    "FIELD3":106.11693
+  },
+  {
+    "FIELD1":"kota tangerang",
+    "FIELD2":-6.2023935,
+    "FIELD3":106.65271
+  },
+  {
+    "FIELD1":"kota serang",
+    "FIELD2":-6.110366,
+    "FIELD3":106.16398
+  },
+  {
+    "FIELD1":"kota cilegon",
+    "FIELD2":-6.0025344,
+    "FIELD3":106.01112
+  },
+  {
+    "FIELD1":"kota tangerang selatan",
+    "FIELD2":-6.2835217,
+    "FIELD3":106.711296
+  },
+  {
+    "FIELD1":"jawa barat",
+    "FIELD2":-7.090911,
+    "FIELD3":107.668884
+  },
+  {
+    "FIELD1":"kabupaten bandung",
+    "FIELD2":-6.917464,
+    "FIELD3":107.619125
+  },
+  {
+    "FIELD1":"kabupaten bandung barat",
+    "FIELD2":-6.8652215,
+    "FIELD3":107.491974
+  },
+  {
+    "FIELD1":"kabupaten bekasi",
+    "FIELD2":-6.23827,
+    "FIELD3":106.97557
+  },
+  {
+    "FIELD1":"kabupaten bogor",
+    "FIELD2":-6.597147,
+    "FIELD3":106.80604
+  },
+  {
+    "FIELD1":"kabupaten ciamis",
+    "FIELD2":-7.3298674,
+    "FIELD3":108.33225
+  },
+  {
+    "FIELD1":"kabupaten cianjur",
+    "FIELD2":-6.8168235,
+    "FIELD3":107.14255
+  },
+  {
+    "FIELD1":"kabupaten cirebon",
+    "FIELD2":-6.732023,
+    "FIELD3":108.552315
+  },
+  {
+    "FIELD1":"kabupaten garut",
+    "FIELD2":-7.227906,
+    "FIELD3":107.9087
+  },
+  {
+    "FIELD1":"kabupaten indramayu",
+    "FIELD2":-6.33731,
+    "FIELD3":108.32582
+  },
+  {
+    "FIELD1":"kabupaten karawang",
+    "FIELD2":-6.32273,
+    "FIELD3":107.33758
+  },
+  {
+    "FIELD1":"kabupaten kuningan",
+    "FIELD2":-6.9810104,
+    "FIELD3":108.49289
+  },
+  {
+    "FIELD1":"kabupaten majalengka",
+    "FIELD2":-6.836422,
+    "FIELD3":108.227425
+  },
+  {
+    "FIELD1":"kabupaten purwakarta",
+    "FIELD2":-6.5406666,
+    "FIELD3":107.44627
+  },
+  {
+    "FIELD1":"kabupaten subang",
+    "FIELD2":-6.5622888,
+    "FIELD3":107.760796
+  },
+  {
+    "FIELD1":"kabupaten sukabumi",
+    "FIELD2":-6.9277363,
+    "FIELD3":106.929955
+  },
+  {
+    "FIELD1":"kabupaten sumedang",
+    "FIELD2":-6.832858,
+    "FIELD3":107.953186
+  },
+  {
+    "FIELD1":"kabupaten tasikmalaya",
+    "FIELD2":-7.3505807,
+    "FIELD3":108.21716
+  },
+  {
+    "FIELD1":"kota bandung",
+    "FIELD2":-6.917464,
+    "FIELD3":107.619125
+  },
+  {
+    "FIELD1":"kota banjar",
+    "FIELD2":-7.3706875,
+    "FIELD3":108.53425
+  },
+  {
+    "FIELD1":"kota bekasi",
+    "FIELD2":-6.23827,
+    "FIELD3":106.97557
+  },
+  {
+    "FIELD1":"kota bogor",
+    "FIELD2":-6.597147,
+    "FIELD3":106.80604
+  },
+  {
+    "FIELD1":"kota cimahi",
+    "FIELD2":-6.8840814,
+    "FIELD3":107.541306
+  },
+  {
+    "FIELD1":"kota cirebon",
+    "FIELD2":-6.732023,
+    "FIELD3":108.552315
+  },
+  {
+    "FIELD1":"kota depok",
+    "FIELD2":-6.4024844,
+    "FIELD3":106.79424
+  },
+  {
+    "FIELD1":"kota sukabumi",
+    "FIELD2":-6.9277363,
+    "FIELD3":106.929955
+  },
+  {
+    "FIELD1":"kota tasikmalaya",
+    "FIELD2":-7.3505807,
+    "FIELD3":108.21716
+  },
+  {
+    "FIELD1":"dki jakarta",
+    "FIELD2":-6.174465,
+    "FIELD3":106.82275
+  },
+  {
+    "FIELD1":"kabupaten administrasi kepulauan seribu",
+    "FIELD2":-5.7469234,
+    "FIELD3":106.61254
+  },
+  {
+    "FIELD1":"kota administrasi jakarta barat",
+    "FIELD2":-6.1683297,
+    "FIELD3":106.75885
+  },
+  {
+    "FIELD1":"kota administrasi jakarta pusat",
+    "FIELD2":-6.1864862,
+    "FIELD3":106.83409
+  },
+  {
+    "FIELD1":"kota administrasi jakarta selatan",
+    "FIELD2":-6.2614927,
+    "FIELD3":106.8106
+  },
+  {
+    "FIELD1":"kota administrasi jakarta timur",
+    "FIELD2":-6.2250137,
+    "FIELD3":106.900444
+  },
+  {
+    "FIELD1":"kota administrasi jakarta utara",
+    "FIELD2":-6.1384144,
+    "FIELD3":106.86395
+  },
+  {
+    "FIELD1":"jawa tengah",
+    "FIELD2":-7.150975,
+    "FIELD3":110.14026
+  },
+  {
+    "FIELD1":"kabupaten banjarnegara",
+    "FIELD2":-7.44739,
+    "FIELD3":109.553856
+  },
+  {
+    "FIELD1":"kabupaten banyumas",
+    "FIELD2":-7.4832134,
+    "FIELD3":109.140434
+  },
+  {
+    "FIELD1":"kabupaten batang",
+    "FIELD2":-6.908045,
+    "FIELD3":109.73268
+  },
+  {
+    "FIELD1":"kabupaten blora",
+    "FIELD2":-7.012244,
+    "FIELD3":111.37989
+  },
+  {
+    "FIELD1":"kabupaten boyolali",
+    "FIELD2":-7.52053,
+    "FIELD3":110.595024
+  },
+  {
+    "FIELD1":"kabupaten brebes",
+    "FIELD2":-6.856421,
+    "FIELD3":109.039375
+  },
+  {
+    "FIELD1":"kabupaten cilacap",
+    "FIELD2":-7.698299,
+    "FIELD3":109.02352
+  },
+  {
+    "FIELD1":"kabupaten demak",
+    "FIELD2":-6.892161,
+    "FIELD3":110.63775
+  },
+  {
+    "FIELD1":"kabupaten grobogan",
+    "FIELD2":-7.0217195,
+    "FIELD3":110.962585
+  },
+  {
+    "FIELD1":"kabupaten jepara",
+    "FIELD2":-6.580498,
+    "FIELD3":110.678986
+  },
+  {
+    "FIELD1":"kabupaten karanganyar",
+    "FIELD2":-7.607073,
+    "FIELD3":110.986694
+  },
+  {
+    "FIELD1":"kabupaten kebumen",
+    "FIELD2":-7.67619,
+    "FIELD3":109.6637
+  },
+  {
+    "FIELD1":"kabupaten kendal",
+    "FIELD2":54.328007,
+    "FIELD3":-2.74629
+  },
+  {
+    "FIELD1":"kabupaten klaten",
+    "FIELD2":-7.739967,
+    "FIELD3":110.664566
+  },
+  {
+    "FIELD1":"kabupaten kudus",
+    "FIELD2":31.768318,
+    "FIELD3":35.21371
+  },
+  {
+    "FIELD1":"kabupaten magelang",
+    "FIELD2":-7.4797344,
+    "FIELD3":110.2177
+  },
+  {
+    "FIELD1":"kabupaten pati",
+    "FIELD2":-6.7449636,
+    "FIELD3":111.04604
+  },
+  {
+    "FIELD1":"kabupaten pekalongan",
+    "FIELD2":-6.8898363,
+    "FIELD3":109.67459
+  },
+  {
+    "FIELD1":"kabupaten pemalang",
+    "FIELD2":-6.9201317,
+    "FIELD3":109.370575
+  },
+  {
+    "FIELD1":"kabupaten purbalingga",
+    "FIELD2":-7.385735,
+    "FIELD3":109.36043
+  },
+  {
+    "FIELD1":"kabupaten purworejo",
+    "FIELD2":-7.7135816,
+    "FIELD3":110.007835
+  },
+  {
+    "FIELD1":"kabupaten rembang",
+    "FIELD2":-6.706555,
+    "FIELD3":111.33729
+  },
+  {
+    "FIELD1":"kabupaten semarang",
+    "FIELD2":-7.005145,
+    "FIELD3":110.438126
+  },
+  {
+    "FIELD1":"kabupaten sragen",
+    "FIELD2":-7.419408,
+    "FIELD3":111.02249
+  },
+  {
+    "FIELD1":"kabupaten sukoharjo",
+    "FIELD2":-7.683029,
+    "FIELD3":110.814735
+  },
+  {
+    "FIELD1":"kabupaten tegal",
+    "FIELD2":-6.879704,
+    "FIELD3":109.125595
+  },
+  {
+    "FIELD1":"kabupaten temanggung",
+    "FIELD2":-7.3178563,
+    "FIELD3":110.17792
+  },
+  {
+    "FIELD1":"kabupaten wonogiri",
+    "FIELD2":-7.7978516,
+    "FIELD3":110.93874
+  },
+  {
+    "FIELD1":"kabupaten wonosobo",
+    "FIELD2":-7.3555775,
+    "FIELD3":109.913956
+  },
+  {
+    "FIELD1":"kota magelang",
+    "FIELD2":-7.4797344,
+    "FIELD3":110.2177
+  },
+  {
+    "FIELD1":"kota pekalongan",
+    "FIELD2":-6.8898363,
+    "FIELD3":109.67459
+  },
+  {
+    "FIELD1":"kota salatiga",
+    "FIELD2":-7.3305235,
+    "FIELD3":110.50844
+  },
+  {
+    "FIELD1":"kota semarang",
+    "FIELD2":-7.005145,
+    "FIELD3":110.438126
+  },
+  {
+    "FIELD1":"kota surakarta",
+    "FIELD2":-7.5754886,
+    "FIELD3":110.824326
+  },
+  {
+    "FIELD1":"kota tegal",
+    "FIELD2":-6.879704,
+    "FIELD3":109.125595
+  },
+  {
+    "FIELD1":"jawa timur",
+    "FIELD2":-7.5360637,
+    "FIELD3":112.2384
+  },
+  {
+    "FIELD1":"kabupaten bangkalan",
+    "FIELD2":-7.0252824,
+    "FIELD3":112.75198
+  },
+  {
+    "FIELD1":"kabupaten banyuwangi",
+    "FIELD2":-8.2192335,
+    "FIELD3":114.369225
+  },
+  {
+    "FIELD1":"kabupaten blitar",
+    "FIELD2":-8.095463,
+    "FIELD3":112.160904
+  },
+  {
+    "FIELD1":"kabupaten bojonegoro",
+    "FIELD2":-7.1524787,
+    "FIELD3":111.88693
+  },
+  {
+    "FIELD1":"kabupaten bondowoso",
+    "FIELD2":-7.9187584,
+    "FIELD3":113.82064
+  },
+  {
+    "FIELD1":"kabupaten gresik",
+    "FIELD2":-7.1652436,
+    "FIELD3":112.651985
+  },
+  {
+    "FIELD1":"kabupaten jember",
+    "FIELD2":-8.173312,
+    "FIELD3":113.70093
+  },
+  {
+    "FIELD1":"kabupaten jombang",
+    "FIELD2":-7.5740867,
+    "FIELD3":112.28609
+  },
+  {
+    "FIELD1":"kabupaten kediri",
+    "FIELD2":-7.848016,
+    "FIELD3":112.01783
+  },
+  {
+    "FIELD1":"kabupaten lamongan",
+    "FIELD2":-7.118111,
+    "FIELD3":112.41498
+  },
+  {
+    "FIELD1":"kabupaten lumajang",
+    "FIELD2":-8.132769,
+    "FIELD3":113.224556
+  },
+  {
+    "FIELD1":"kabupaten madiun",
+    "FIELD2":-7.6310587,
+    "FIELD3":111.530014
+  },
+  {
+    "FIELD1":"kabupaten magetan",
+    "FIELD2":-7.649341,
+    "FIELD3":111.33816
+  },
+  {
+    "FIELD1":"kabupaten malang",
+    "FIELD2":-7.9666204,
+    "FIELD3":112.63263
+  },
+  {
+    "FIELD1":"kabupaten mojokerto",
+    "FIELD2":-7.563831,
+    "FIELD3":112.47683
+  },
+  {
+    "FIELD1":"kabupaten nganjuk",
+    "FIELD2":-7.604372,
+    "FIELD3":111.899345
+  },
+  {
+    "FIELD1":"kabupaten ngawi",
+    "FIELD2":-7.4190726,
+    "FIELD3":111.4574
+  },
+  {
+    "FIELD1":"kabupaten pacitan",
+    "FIELD2":-8.179782,
+    "FIELD3":111.10565
+  },
+  {
+    "FIELD1":"kabupaten pamekasan",
+    "FIELD2":-7.154249,
+    "FIELD3":113.47391
+  },
+  {
+    "FIELD1":"kabupaten pasuruan",
+    "FIELD2":-7.6469193,
+    "FIELD3":112.899925
+  },
+  {
+    "FIELD1":"kabupaten ponorogo",
+    "FIELD2":-7.866688,
+    "FIELD3":111.466606
+  },
+  {
+    "FIELD1":"kabupaten probolinggo",
+    "FIELD2":-7.7764225,
+    "FIELD3":113.20371
+  },
+  {
+    "FIELD1":"kabupaten sampang",
+    "FIELD2":-7.0402327,
+    "FIELD3":113.23945
+  },
+  {
+    "FIELD1":"kabupaten sidoarjo",
+    "FIELD2":-7.449772,
+    "FIELD3":112.701546
+  },
+  {
+    "FIELD1":"kabupaten situbondo",
+    "FIELD2":-7.7050533,
+    "FIELD3":113.99528
+  },
+  {
+    "FIELD1":"kabupaten sumenep",
+    "FIELD2":-7.009557,
+    "FIELD3":113.8583
+  },
+  {
+    "FIELD1":"kabupaten trenggalek",
+    "FIELD2":-8.08641,
+    "FIELD3":111.71313
+  },
+  {
+    "FIELD1":"kabupaten tuban",
+    "FIELD2":-6.89491,
+    "FIELD3":112.04167
+  },
+  {
+    "FIELD1":"kabupaten tulungagung",
+    "FIELD2":-8.091221,
+    "FIELD3":111.96417
+  },
+  {
+    "FIELD1":"kota batu",
+    "FIELD2":-7.8830647,
+    "FIELD3":112.53345
+  },
+  {
+    "FIELD1":"kota blitar",
+    "FIELD2":-8.095463,
+    "FIELD3":112.160904
+  },
+  {
+    "FIELD1":"kota kediri",
+    "FIELD2":-7.848016,
+    "FIELD3":112.01783
+  },
+  {
+    "FIELD1":"kota madiun",
+    "FIELD2":-7.6310587,
+    "FIELD3":111.530014
+  },
+  {
+    "FIELD1":"kota malang",
+    "FIELD2":-7.9666204,
+    "FIELD3":112.63263
+  },
+  {
+    "FIELD1":"kota mojokerto",
+    "FIELD2":-7.4704747,
+    "FIELD3":112.44013
+  },
+  {
+    "FIELD1":"kota pasuruan",
+    "FIELD2":-7.6469193,
+    "FIELD3":112.899925
+  },
+  {
+    "FIELD1":"kota probolinggo",
+    "FIELD2":-7.7764225,
+    "FIELD3":113.20371
+  },
+  {
+    "FIELD1":"kota surabaya",
+    "FIELD2":-7.257472,
+    "FIELD3":112.75209
+  },
+  {
+    "FIELD1":"daerah istimewa yogyakarta",
+    "FIELD2":-7.7975917,
+    "FIELD3":110.37071
+  },
+  {
+    "FIELD1":"kabupaten bantul",
+    "FIELD2":-7.8748174,
+    "FIELD3":110.32554
+  },
+  {
+    "FIELD1":"kabupaten gunung kidul",
+    "FIELD2":-8.030509,
+    "FIELD3":110.61689
+  },
+  {
+    "FIELD1":"kabupaten kulon progo",
+    "FIELD2":-7.8266797,
+    "FIELD3":110.164085
+  },
+  {
+    "FIELD1":"kabupaten sleman",
+    "FIELD2":-7.716165,
+    "FIELD3":110.3354
+  },
+  {
+    "FIELD1":"kota yogyakarta",
+    "FIELD2":-7.79558,
+    "FIELD3":110.36949
+  },
+  {
+    "FIELD1":"bali",
+    "FIELD2":-8.409518,
+    "FIELD3":115.18892
+  },
+  {
+    "FIELD1":"kabupaten badung",
+    "FIELD2":-8.581929,
+    "FIELD3":115.177055
+  },
+  {
+    "FIELD1":"kabupaten bangli",
+    "FIELD2":-8.454303,
+    "FIELD3":115.3549
+  },
+  {
+    "FIELD1":"kabupaten buleleng",
+    "FIELD2":-8.121376,
+    "FIELD3":115.07818
+  },
+  {
+    "FIELD1":"kabupaten gianyar",
+    "FIELD2":-8.536715,
+    "FIELD3":115.33144
+  },
+  {
+    "FIELD1":"kabupaten jembrana",
+    "FIELD2":-8.360949,
+    "FIELD3":114.62935
+  },
+  {
+    "FIELD1":"kabupaten karangasem",
+    "FIELD2":-8.446293,
+    "FIELD3":115.61273
+  },
+  {
+    "FIELD1":"kabupaten klungkung",
+    "FIELD2":-8.538825,
+    "FIELD3":115.40237
+  },
+  {
+    "FIELD1":"kabupaten tabanan",
+    "FIELD2":-8.537557,
+    "FIELD3":115.124695
+  },
+  {
+    "FIELD1":"kota denpasar",
+    "FIELD2":-8.670458,
+    "FIELD3":115.21263
+  },
+  {
+    "FIELD1":"nusa tenggara barat",
+    "FIELD2":-8.652933,
+    "FIELD3":117.36165
+  },
+  {
+    "FIELD1":"kabupaten bima",
+    "FIELD2":-8.435396,
+    "FIELD3":118.62648
+  },
+  {
+    "FIELD1":"kabupaten dompu",
+    "FIELD2":-8.536396,
+    "FIELD3":118.34619
+  },
+  {
+    "FIELD1":"kabupaten lombok barat",
+    "FIELD2":-8.64646,
+    "FIELD3":116.112305
+  },
+  {
+    "FIELD1":"kabupaten lombok tengah",
+    "FIELD2":-8.694623,
+    "FIELD3":116.27771
+  },
+  {
+    "FIELD1":"kabupaten lombok timur",
+    "FIELD2":-8.513447,
+    "FIELD3":116.56099
+  },
+  {
+    "FIELD1":"kabupaten lombok utara",
+    "FIELD2":-8.373908,
+    "FIELD3":116.27771
+  },
+  {
+    "FIELD1":"kabupaten sumbawa",
+    "FIELD2":-8.652933,
+    "FIELD3":117.36165
+  },
+  {
+    "FIELD1":"kabupaten sumbawa barat",
+    "FIELD2":-8.929291,
+    "FIELD3":116.89104
+  },
+  {
+    "FIELD1":"kota bima",
+    "FIELD2":-8.464266,
+    "FIELD3":118.7449
+  },
+  {
+    "FIELD1":"kota mataram",
+    "FIELD2":-8.576995,
+    "FIELD3":116.10049
+  },
+  {
+    "FIELD1":"nusa tenggara timur",
+    "FIELD2":-8.657382,
+    "FIELD3":121.07937
+  },
+  {
+    "FIELD1":"kabupaten alor",
+    "FIELD2":-8.292843,
+    "FIELD3":124.55284
+  },
+  {
+    "FIELD1":"kabupaten belu",
+    "FIELD2":-9.153898,
+    "FIELD3":124.90655
+  },
+  {
+    "FIELD1":"kabupaten ende",
+    "FIELD2":-8.676291,
+    "FIELD3":121.71954
+  },
+  {
+    "FIELD1":"kabupaten flores timur",
+    "FIELD2":-8.313094,
+    "FIELD3":122.9663
+  },
+  {
+    "FIELD1":"kabupaten kupang",
+    "FIELD2":-10.177199,
+    "FIELD3":123.60703
+  },
+  {
+    "FIELD1":"kabupaten lembata",
+    "FIELD2":-8.471908,
+    "FIELD3":123.48319
+  },
+  {
+    "FIELD1":"kabupaten manggarai",
+    "FIELD2":-8.679699,
+    "FIELD3":120.38966
+  },
+  {
+    "FIELD1":"kabupaten manggarai barat",
+    "FIELD2":-8.668815,
+    "FIELD3":120.06652
+  },
+  {
+    "FIELD1":"kabupaten manggarai timur",
+    "FIELD2":-8.620671,
+    "FIELD3":120.61999
+  },
+  {
+    "FIELD1":"kabupaten ngada",
+    "FIELD2":-8.743042,
+    "FIELD3":120.98763
+  },
+  {
+    "FIELD1":"kabupaten nagekeo",
+    "FIELD2":-8.675355,
+    "FIELD3":121.30841
+  },
+  {
+    "FIELD1":"kabupaten rote ndao",
+    "FIELD2":-10.738642,
+    "FIELD3":123.1239
+  },
+  {
+    "FIELD1":"kabupaten sabu raijua",
+    "FIELD2":-10.5541115,
+    "FIELD3":121.83349
+  },
+  {
+    "FIELD1":"kabupaten sikka",
+    "FIELD2":-8.676618,
+    "FIELD3":122.12918
+  },
+  {
+    "FIELD1":"kabupaten sumba barat",
+    "FIELD2":-9.654833,
+    "FIELD3":119.394714
+  },
+  {
+    "FIELD1":"kabupaten sumba barat daya",
+    "FIELD2":-9.539139,
+    "FIELD3":119.13906
+  },
+  {
+    "FIELD1":"kabupaten sumba tengah",
+    "FIELD2":-9.487923,
+    "FIELD3":119.696266
+  },
+  {
+    "FIELD1":"kabupaten sumba timur",
+    "FIELD2":-9.98021,
+    "FIELD3":120.34355
+  },
+  {
+    "FIELD1":"kabupaten timor tengah selatan",
+    "FIELD2":-9.776281,
+    "FIELD3":124.41982
+  },
+  {
+    "FIELD1":"kabupaten timor tengah utara",
+    "FIELD2":-9.452265,
+    "FIELD3":124.59713
+  },
+  {
+    "FIELD1":"kota kupang",
+    "FIELD2":-10.177199,
+    "FIELD3":123.60703
+  },
+  {
+    "FIELD1":"kalimantan",
+    "FIELD2":0.9618834,
+    "FIELD3":114.55485
+  },
+  {
+    "FIELD1":"kalimantan barat",
+    "FIELD2":-0.2787808,
+    "FIELD3":111.47529
+  },
+  {
+    "FIELD1":"kabupaten bengkayang",
+    "FIELD2":1.06911,
+    "FIELD3":109.66393
+  },
+  {
+    "FIELD1":"kabupaten kapuas hulu",
+    "FIELD2":0.8336697,
+    "FIELD3":113.0012
+  },
+  {
+    "FIELD1":"kabupaten kayong utara",
+    "FIELD2":-0.9225877,
+    "FIELD3":110.04497
+  },
+  {
+    "FIELD1":"kabupaten ketapang",
+    "FIELD2":-1.859098,
+    "FIELD3":109.9719
+  },
+  {
+    "FIELD1":"kabupaten kubu raya",
+    "FIELD2":-0.3533938,
+    "FIELD3":109.4735
+  },
+  {
+    "FIELD1":"kabupaten landak",
+    "FIELD2":0.4237287,
+    "FIELD3":109.75917
+  },
+  {
+    "FIELD1":"kabupaten melawi",
+    "FIELD2":-0.7000681,
+    "FIELD3":111.66607
+  },
+  {
+    "FIELD1":"kabupaten pontianak",
+    "FIELD2":-0.0263303,
+    "FIELD3":109.34251
+  },
+  {
+    "FIELD1":"kabupaten sambas",
+    "FIELD2":1.3625191,
+    "FIELD3":109.28315
+  },
+  {
+    "FIELD1":"kabupaten sanggau",
+    "FIELD2":0.119275,
+    "FIELD3":110.5973
+  },
+  {
+    "FIELD1":"kabupaten sekadau",
+    "FIELD2":-0.0697175,
+    "FIELD3":110.99835
+  },
+  {
+    "FIELD1":"kabupaten sintang",
+    "FIELD2":-0.1378068,
+    "FIELD3":112.810555
+  },
+  {
+    "FIELD1":"kota pontianak",
+    "FIELD2":-0.0263303,
+    "FIELD3":109.34251
+  },
+  {
+    "FIELD1":"kota singkawang",
+    "FIELD2":0.9060204,
+    "FIELD3":108.987206
+  },
+  {
+    "FIELD1":"kalimantan selatan",
+    "FIELD2":-3.0926416,
+    "FIELD3":115.28376
+  },
+  {
+    "FIELD1":"kabupaten balangan",
+    "FIELD2":-2.3260424,
+    "FIELD3":115.61547
+  },
+  {
+    "FIELD1":"kabupaten banjar",
+    "FIELD2":-3.3200228,
+    "FIELD3":114.999146
+  },
+  {
+    "FIELD1":"kabupaten barito kuala",
+    "FIELD2":-3.0714738,
+    "FIELD3":114.666794
+  },
+  {
+    "FIELD1":"kabupaten hulu sungai selatan",
+    "FIELD2":-2.766268,
+    "FIELD3":115.23634
+  },
+  {
+    "FIELD1":"kabupaten hulu sungai tengah",
+    "FIELD2":-2.6153162,
+    "FIELD3":115.52074
+  },
+  {
+    "FIELD1":"kabupaten hulu sungai utara",
+    "FIELD2":-2.4421225,
+    "FIELD3":115.18892
+  },
+  {
+    "FIELD1":"kabupaten kotabaru",
+    "FIELD2":-6.3889127,
+    "FIELD3":107.49135
+  },
+  {
+    "FIELD1":"kabupaten tabalong",
+    "FIELD2":-1.864302,
+    "FIELD3":115.56811
+  },
+  {
+    "FIELD1":"kabupaten tanah bumbu",
+    "FIELD2":-3.4512243,
+    "FIELD3":115.56811
+  },
+  {
+    "FIELD1":"kabupaten tanah laut",
+    "FIELD2":-3.7694046,
+    "FIELD3":114.80927
+  },
+  {
+    "FIELD1":"kabupaten tapin",
+    "FIELD2":-2.9160745,
+    "FIELD3":115.0466
+  },
+  {
+    "FIELD1":"kota banjarbaru",
+    "FIELD2":-3.4572423,
+    "FIELD3":114.81032
+  },
+  {
+    "FIELD1":"kota banjarmasin",
+    "FIELD2":-3.3186066,
+    "FIELD3":114.594376
+  },
+  {
+    "FIELD1":"kalimantan tengah",
+    "FIELD2":-1.6814878,
+    "FIELD3":113.382355
+  },
+  {
+    "FIELD1":"kabupaten barito selatan",
+    "FIELD2":-1.875943,
+    "FIELD3":114.80927
+  },
+  {
+    "FIELD1":"kabupaten barito timur",
+    "FIELD2":-2.0124,
+    "FIELD3":115.18892
+  },
+  {
+    "FIELD1":"kabupaten barito utara",
+    "FIELD2":-0.9587136,
+    "FIELD3":115.09405
+  },
+  {
+    "FIELD1":"kabupaten gunung mas",
+    "FIELD2":-1.2522464,
+    "FIELD3":113.57285
+  },
+  {
+    "FIELD1":"kabupaten kapuas",
+    "FIELD2":-1.8116446,
+    "FIELD3":114.334145
+  },
+  {
+    "FIELD1":"kabupaten katingan",
+    "FIELD2":-0.9758379,
+    "FIELD3":112.810555
+  },
+  {
+    "FIELD1":"kabupaten kotawaringin barat",
+    "FIELD2":-2.506342,
+    "FIELD3":111.76147
+  },
+  {
+    "FIELD1":"kabupaten kotawaringin timur",
+    "FIELD2":-2.1225474,
+    "FIELD3":112.810555
+  },
+  {
+    "FIELD1":"kabupaten lamandau",
+    "FIELD2":-1.8526376,
+    "FIELD3":111.2845
+  },
+  {
+    "FIELD1":"kabupaten murung raya",
+    "FIELD2":-0.1362171,
+    "FIELD3":114.334145
+  },
+  {
+    "FIELD1":"kabupaten pulang pisau",
+    "FIELD2":-2.6849606,
+    "FIELD3":113.95364
+  },
+  {
+    "FIELD1":"kabupaten sukamara",
+    "FIELD2":-2.6267517,
+    "FIELD3":111.23681
+  },
+  {
+    "FIELD1":"kabupaten seruyan",
+    "FIELD2":-3.0123467,
+    "FIELD3":112.429146
+  },
+  {
+    "FIELD1":"kota palangka raya",
+    "FIELD2":-2.2161047,
+    "FIELD3":113.91398
+  },
+  {
+    "FIELD1":"kalimantan timur",
+    "FIELD2":0.5386586,
+    "FIELD3":116.41939
+  },
+  {
+    "FIELD1":"kabupaten berau",
+    "FIELD2":2.0450883,
+    "FIELD3":117.36165
+  },
+  {
+    "FIELD1":"kabupaten bulungan",
+    "FIELD2":2.9042475,
+    "FIELD3":116.985245
+  },
+  {
+    "FIELD1":"kabupaten kutai barat",
+    "FIELD2":-0.4051796,
+    "FIELD3":115.85217
+  },
+  {
+    "FIELD1":"kabupaten kutai kartanegara",
+    "FIELD2":-0.1336655,
+    "FIELD3":116.60816
+  },
+  {
+    "FIELD1":"kabupaten kutai timur",
+    "FIELD2":0.9433774,
+    "FIELD3":116.985245
+  },
+  {
+    "FIELD1":"kabupaten malinau",
+    "FIELD2":3.073093,
+    "FIELD3":116.04139
+  },
+  {
+    "FIELD1":"kabupaten nunukan",
+    "FIELD2":4.0609226,
+    "FIELD3":117.666954
+  },
+  {
+    "FIELD1":"kabupaten paser",
+    "FIELD2":-1.7175266,
+    "FIELD3":115.9468
+  },
+  {
+    "FIELD1":"kabupaten penajam paser utara",
+    "FIELD2":-1.2917094,
+    "FIELD3":116.513794
+  },
+  {
+    "FIELD1":"kabupaten tana tidung",
+    "FIELD2":3.551869,
+    "FIELD3":117.07941
+  },
+  {
+    "FIELD1":"kota balikpapan",
+    "FIELD2":-1.2379274,
+    "FIELD3":116.85285
+  },
+  {
+    "FIELD1":"kota bontang",
+    "FIELD2":0.120863,
+    "FIELD3":117.48004
+  },
+  {
+    "FIELD1":"kota samarinda",
+    "FIELD2":-0.4948232,
+    "FIELD3":117.143616
+  },
+  {
+    "FIELD1":"kota tarakan",
+    "FIELD2":3.32736,
+    "FIELD3":117.57851
+  },
+  {
+    "FIELD1":"sulawesi",
+    "FIELD2":-1.8479,
+    "FIELD3":120.5279
+  },
+  {
+    "FIELD1":"gorontalo",
+    "FIELD2":0.5435442,
+    "FIELD3":123.05677
+  },
+  {
+    "FIELD1":"kabupaten boalemo",
+    "FIELD2":0.7013419,
+    "FIELD3":122.26539
+  },
+  {
+    "FIELD1":"kabupaten bone bolango",
+    "FIELD2":0.5657885,
+    "FIELD3":123.34862
+  },
+  {
+    "FIELD1":"kabupaten gorontalo",
+    "FIELD2":0.5435442,
+    "FIELD3":123.05677
+  },
+  {
+    "FIELD1":"kabupaten gorontalo utara",
+    "FIELD2":0.9252647,
+    "FIELD3":122.49201
+  },
+  {
+    "FIELD1":"kabupaten pohuwato",
+    "FIELD2":0.7055278,
+    "FIELD3":121.71954
+  },
+  {
+    "FIELD1":"kota gorontalo",
+    "FIELD2":0.5435442,
+    "FIELD3":123.05677
+  },
+  {
+    "FIELD1":"sulawesi selatan",
+    "FIELD2":-3.6687994,
+    "FIELD3":119.97405
+  },
+  {
+    "FIELD1":"kabupaten bantaeng",
+    "FIELD2":-5.5169315,
+    "FIELD3":120.020294
+  },
+  {
+    "FIELD1":"kabupaten barru",
+    "FIELD2":-4.436417,
+    "FIELD3":119.64992
+  },
+  {
+    "FIELD1":"kabupaten bone",
+    "FIELD2":-4.7443385,
+    "FIELD3":120.06652
+  },
+  {
+    "FIELD1":"kabupaten bulukumba",
+    "FIELD2":-5.4329367,
+    "FIELD3":120.20511
+  },
+  {
+    "FIELD1":"kabupaten enrekang",
+    "FIELD2":-3.4590745,
+    "FIELD3":119.88152
+  },
+  {
+    "FIELD1":"kabupaten gowa",
+    "FIELD2":-5.310289,
+    "FIELD3":119.74261
+  },
+  {
+    "FIELD1":"kabupaten jeneponto",
+    "FIELD2":-5.554579,
+    "FIELD3":119.673096
+  },
+  {
+    "FIELD1":"kabupaten kepulauan selayar",
+    "FIELD2":-6.2869787,
+    "FIELD3":120.50488
+  },
+  {
+    "FIELD1":"kabupaten luwu",
+    "FIELD2":-3.3052213,
+    "FIELD3":120.251274
+  },
+  {
+    "FIELD1":"kabupaten luwu timur",
+    "FIELD2":-2.5825517,
+    "FIELD3":121.171036
+  },
+  {
+    "FIELD1":"kabupaten luwu utara",
+    "FIELD2":-2.2690446,
+    "FIELD3":119.97405
+  },
+  {
+    "FIELD1":"kabupaten maros",
+    "FIELD2":-5.0549145,
+    "FIELD3":119.696266
+  },
+  {
+    "FIELD1":"kabupaten pangkajene dan kepulauan",
+    "FIELD2":-4.805035,
+    "FIELD3":119.55717
+  },
+  {
+    "FIELD1":"kabupaten pinrang",
+    "FIELD2":-3.6483486,
+    "FIELD3":119.55717
+  },
+  {
+    "FIELD1":"kabupaten sidenreng rappang",
+    "FIELD2":-3.7738981,
+    "FIELD3":120.020294
+  },
+  {
+    "FIELD1":"kabupaten sinjai",
+    "FIELD2":-5.217196,
+    "FIELD3":120.11273
+  },
+  {
+    "FIELD1":"kabupaten soppeng",
+    "FIELD2":-4.3518543,
+    "FIELD3":119.927795
+  },
+  {
+    "FIELD1":"kabupaten takalar",
+    "FIELD2":-5.4162493,
+    "FIELD3":119.487564
+  },
+  {
+    "FIELD1":"kabupaten tana toraja",
+    "FIELD2":-3.0753002,
+    "FIELD3":119.74261
+  },
+  {
+    "FIELD1":"kabupaten toraja utara",
+    "FIELD2":-2.8621943,
+    "FIELD3":119.83523
+  },
+  {
+    "FIELD1":"kabupaten wajo",
+    "FIELD2":-4.022229,
+    "FIELD3":120.06652
+  },
+  {
+    "FIELD1":"kota makassar",
+    "FIELD2":-5.147665,
+    "FIELD3":119.43273
+  },
+  {
+    "FIELD1":"kota palopo",
+    "FIELD2":-3.010846,
+    "FIELD3":120.202225
+  },
+  {
+    "FIELD1":"kota parepare",
+    "FIELD2":-4.009622,
+    "FIELD3":119.62906
+  },
+  {
+    "FIELD1":"sulawesi tenggara",
+    "FIELD2":-4.14491,
+    "FIELD3":122.17461
+  },
+  {
+    "FIELD1":"kabupaten bombana",
+    "FIELD2":-4.654346,
+    "FIELD3":121.901794
+  },
+  {
+    "FIELD1":"kabupaten buton",
+    "FIELD2":-5.3096356,
+    "FIELD3":122.98883
+  },
+  {
+    "FIELD1":"kabupaten buton utara",
+    "FIELD2":-4.7023425,
+    "FIELD3":123.033875
+  },
+  {
+    "FIELD1":"kabupaten kolaka",
+    "FIELD2":-3.9946988,
+    "FIELD3":121.582664
+  },
+  {
+    "FIELD1":"kabupaten kolaka utara",
+    "FIELD2":-3.1347227,
+    "FIELD3":121.171036
+  },
+  {
+    "FIELD1":"kabupaten konawe",
+    "FIELD2":-3.938043,
+    "FIELD3":122.08375
+  },
+  {
+    "FIELD1":"kabupaten konawe selatan",
+    "FIELD2":-4.2027917,
+    "FIELD3":122.446724
+  },
+  {
+    "FIELD1":"kabupaten konawe utara",
+    "FIELD2":-3.3803291,
+    "FIELD3":122.08375
+  },
+  {
+    "FIELD1":"kabupaten muna",
+    "FIELD2":-4.901629,
+    "FIELD3":122.62775
+  },
+  {
+    "FIELD1":"kabupaten wakatobi",
+    "FIELD2":-5.326444,
+    "FIELD3":123.59519
+  },
+  {
+    "FIELD1":"kota bau-bau",
+    "FIELD2":-5.470011,
+    "FIELD3":122.59769
+  },
+  {
+    "FIELD1":"kota kendari",
+    "FIELD2":-3.9984598,
+    "FIELD3":122.51298
+  },
+  {
+    "FIELD1":"sulawesi tengah",
+    "FIELD2":-1.4300255,
+    "FIELD3":121.44562
+  },
+  {
+    "FIELD1":"kabupaten banggai",
+    "FIELD2":-0.956178,
+    "FIELD3":122.62775
+  },
+  {
+    "FIELD1":"kabupaten banggai kepulauan",
+    "FIELD2":-1.307594,
+    "FIELD3":123.033875
+  },
+  {
+    "FIELD1":"kabupaten buol",
+    "FIELD2":0.9695452,
+    "FIELD3":121.354164
+  },
+  {
+    "FIELD1":"kabupaten donggala",
+    "FIELD2":-0.4233155,
+    "FIELD3":119.83523
+  },
+  {
+    "FIELD1":"kabupaten morowali",
+    "FIELD2":-2.698723,
+    "FIELD3":121.901794
+  },
+  {
+    "FIELD1":"kabupaten parigi moutong",
+    "FIELD2":0.5817607,
+    "FIELD3":120.80395
+  },
+  {
+    "FIELD1":"kabupaten poso",
+    "FIELD2":-1.3949976,
+    "FIELD3":120.75377
+  },
+  {
+    "FIELD1":"kabupaten tojo una-una",
+    "FIELD2":-1.098757,
+    "FIELD3":121.537
+  },
+  {
+    "FIELD1":"kabupaten toli-toli",
+    "FIELD2":0.8768231,
+    "FIELD3":120.75798
+  },
+  {
+    "FIELD1":"kabupaten sigi",
+    "FIELD2":-1.3859904,
+    "FIELD3":119.88152
+  },
+  {
+    "FIELD1":"kota palu",
+    "FIELD2":-0.9002915,
+    "FIELD3":119.878
+  },
+  {
+    "FIELD1":"sulawesi utara",
+    "FIELD2":0.6246932,
+    "FIELD3":123.975
+  },
+  {
+    "FIELD1":"kabupaten bolaang mongondow",
+    "FIELD2":0.6870994,
+    "FIELD3":124.06414
+  },
+  {
+    "FIELD1":"kabupaten bolaang mongondow selatan",
+    "FIELD2":0.4053215,
+    "FIELD3":123.841125
+  },
+  {
+    "FIELD1":"kabupaten bolaang mongondow timur",
+    "FIELD2":0.7152651,
+    "FIELD3":124.46419
+  },
+  {
+    "FIELD1":"kabupaten bolaang mongondow utara",
+    "FIELD2":0.9070359,
+    "FIELD3":123.26573
+  },
+  {
+    "FIELD1":"kabupaten kepulauan sangihe",
+    "FIELD2":3.5303211,
+    "FIELD3":125.5439
+  },
+  {
+    "FIELD1":"kabupaten kepulauan siau tagulandang biaro",
+    "FIELD2":2.0995245,
+    "FIELD3":125.374054
+  },
+  {
+    "FIELD1":"kabupaten kepulauan talaud",
+    "FIELD2":4.306674,
+    "FIELD3":126.80349
+  },
+  {
+    "FIELD1":"kabupaten minahasa",
+    "FIELD2":1.2168837,
+    "FIELD3":124.81826
+  },
+  {
+    "FIELD1":"kabupaten minahasa selatan",
+    "FIELD2":1.0946773,
+    "FIELD3":124.46419
+  },
+  {
+    "FIELD1":"kabupaten minahasa tenggara",
+    "FIELD2":1.0278552,
+    "FIELD3":124.72987
+  },
+  {
+    "FIELD1":"kabupaten minahasa utara",
+    "FIELD2":1.5327973,
+    "FIELD3":124.99475
+  },
+  {
+    "FIELD1":"kota bitung",
+    "FIELD2":1.4403744,
+    "FIELD3":125.12165
+  },
+  {
+    "FIELD1":"kota kotamobagu",
+    "FIELD2":0.7243733,
+    "FIELD3":124.31993
+  },
+  {
+    "FIELD1":"kota manado",
+    "FIELD2":1.4748305,
+    "FIELD3":124.84208
+  },
+  {
+    "FIELD1":"kota tomohon",
+    "FIELD2":1.3229337,
+    "FIELD3":124.84051
+  },
+  {
+    "FIELD1":"sulawesi barat",
+    "FIELD2":-2.8441372,
+    "FIELD3":119.23208
+  },
+  {
+    "FIELD1":"kabupaten majene",
+    "FIELD2":-3.029725,
+    "FIELD3":118.90628
+  },
+  {
+    "FIELD1":"kabupaten mamasa",
+    "FIELD2":-2.911821,
+    "FIELD3":119.325035
+  },
+  {
+    "FIELD1":"kabupaten mamuju",
+    "FIELD2":-2.7293365,
+    "FIELD3":118.92957
+  },
+  {
+    "FIELD1":"kabupaten mamuju utara",
+    "FIELD2":-1.5264542,
+    "FIELD3":119.51077
+  },
+  {
+    "FIELD1":"kabupaten polewali mandar",
+    "FIELD2":-3.3419323,
+    "FIELD3":119.13906
+  },
+  {
+    "FIELD1":"maluku dan papua",
+    "FIELD2":-2.60612,
+    "FIELD3":140.669
+  },
+  {
+    "FIELD1":"maluku",
+    "FIELD2":-3.2384615,
+    "FIELD3":130.14528
+  },
+  {
+    "FIELD1":"kabupaten buru",
+    "FIELD2":-3.3307378,
+    "FIELD3":126.695724
+  },
+  {
+    "FIELD1":"kabupaten buru selatan",
+    "FIELD2":-3.7273972,
+    "FIELD3":126.695724
+  },
+  {
+    "FIELD1":"kabupaten kepulauan aru",
+    "FIELD2":-6.19465,
+    "FIELD3":134.55019
+  },
+  {
+    "FIELD1":"kabupaten maluku barat daya",
+    "FIELD2":-7.7851586,
+    "FIELD3":126.34981
+  },
+  {
+    "FIELD1":"kabupaten maluku tengah",
+    "FIELD2":-3.0166502,
+    "FIELD3":129.48643
+  },
+  {
+    "FIELD1":"kabupaten maluku tenggara",
+    "FIELD2":-5.7512455,
+    "FIELD3":132.72716
+  },
+  {
+    "FIELD1":"kabupaten maluku tenggara barat",
+    "FIELD2":-7.532264,
+    "FIELD3":131.36111
+  },
+  {
+    "FIELD1":"kabupaten seram bagian barat",
+    "FIELD2":-3.1271574,
+    "FIELD3":128.40083
+  },
+  {
+    "FIELD1":"kabupaten seram bagian timur",
+    "FIELD2":-3.4233267,
+    "FIELD3":130.22713
+  },
+  {
+    "FIELD1":"kota ambon",
+    "FIELD2":-3.6553931,
+    "FIELD3":128.19077
+  },
+  {
+    "FIELD1":"kota tual",
+    "FIELD2":-5.568032,
+    "FIELD3":132.34464
+  },
+  {
+    "FIELD1":"maluku utara",
+    "FIELD2":1.5709993,
+    "FIELD3":127.80877
+  },
+  {
+    "FIELD1":"kabupaten halmahera barat",
+    "FIELD2":1.3589664,
+    "FIELD3":127.59607
+  },
+  {
+    "FIELD1":"kabupaten halmahera tengah",
+    "FIELD2":0.4419543,
+    "FIELD3":128.35872
+  },
+  {
+    "FIELD1":"kabupaten halmahera utara",
+    "FIELD2":1.5074308,
+    "FIELD3":127.89367
+  },
+  {
+    "FIELD1":"kabupaten halmahera selatan",
+    "FIELD2":-1.5109015,
+    "FIELD3":127.72377
+  },
+  {
+    "FIELD1":"kabupaten kepulauan sula",
+    "FIELD2":-1.8321222,
+    "FIELD3":125.95878
+  },
+  {
+    "FIELD1":"kabupaten halmahera timur",
+    "FIELD2":1.3121235,
+    "FIELD3":128.48499
+  },
+  {
+    "FIELD1":"kabupaten pulau morotai",
+    "FIELD2":2.365667,
+    "FIELD3":128.40083
+  },
+  {
+    "FIELD1":"kota ternate",
+    "FIELD2":0.7898868,
+    "FIELD3":127.37538
+  },
+  {
+    "FIELD1":"kota tidore kepulauan",
+    "FIELD2":0.5060207,
+    "FIELD3":127.68123
+  },
+  {
+    "FIELD1":"papua",
+    "FIELD2":-4.269928,
+    "FIELD3":138.08035
+  },
+  {
+    "FIELD1":"kabupaten asmat",
+    "FIELD2":-5.057396,
+    "FIELD3":138.39882
+  },
+  {
+    "FIELD1":"kabupaten biak numfor",
+    "FIELD2":-1.0381021,
+    "FIELD3":135.98009
+  },
+  {
+    "FIELD1":"kabupaten boven digoel",
+    "FIELD2":-5.7400017,
+    "FIELD3":140.34819
+  },
+  {
+    "FIELD1":"kabupaten deiyai",
+    "FIELD2":-4.0974894,
+    "FIELD3":136.4393
+  },
+  {
+    "FIELD1":"kabupaten dogiyai",
+    "FIELD2":-4.045414,
+    "FIELD3":135.67635
+  },
+  {
+    "FIELD1":"kabupaten intan jaya",
+    "FIELD2":-3.5076423,
+    "FIELD3":136.74785
+  },
+  {
+    "FIELD1":"kabupaten jayapura",
+    "FIELD2":-2.5916026,
+    "FIELD3":140.669
+  },
+  {
+    "FIELD1":"kabupaten jayawijaya",
+    "FIELD2":-4.000448,
+    "FIELD3":138.79951
+  },
+  {
+    "FIELD1":"kabupaten keerom",
+    "FIELD2":-3.3449535,
+    "FIELD3":140.76245
+  },
+  {
+    "FIELD1":"kabupaten kepulauan yapen",
+    "FIELD2":-1.7469358,
+    "FIELD3":136.1709
+  },
+  {
+    "FIELD1":"kabupaten lanny jaya",
+    "FIELD2":-3.971033,
+    "FIELD3":138.31903
+  },
+  {
+    "FIELD1":"kabupaten mamberamo raya",
+    "FIELD2":-2.5331254,
+    "FIELD3":137.76376
+  },
+  {
+    "FIELD1":"kabupaten mamberamo tengah",
+    "FIELD2":-3.6321082,
+    "FIELD3":138.9606
+  },
+  {
+    "FIELD1":"kabupaten mappi",
+    "FIELD2":-6.760647,
+    "FIELD3":139.69113
+  },
+  {
+    "FIELD1":"kabupaten merauke",
+    "FIELD2":-8.499112,
+    "FIELD3":140.40498
+  },
+  {
+    "FIELD1":"kabupaten mimika",
+    "FIELD2":-4.4553223,
+    "FIELD3":137.13622
+  },
+  {
+    "FIELD1":"kabupaten nabire",
+    "FIELD2":-3.5095463,
+    "FIELD3":135.7521
+  },
+  {
+    "FIELD1":"kabupaten nduga",
+    "FIELD2":-4.4069495,
+    "FIELD3":138.23935
+  },
+  {
+    "FIELD1":"kabupaten paniai",
+    "FIELD2":-3.7876441,
+    "FIELD3":136.36247
+  },
+  {
+    "FIELD1":"kabupaten pegunungan bintang",
+    "FIELD2":-4.558987,
+    "FIELD3":140.51357
+  },
+  {
+    "FIELD1":"kabupaten puncak",
+    "FIELD2":-6.702819,
+    "FIELD3":106.99902
+  },
+  {
+    "FIELD1":"kabupaten puncak jaya",
+    "FIELD2":-3.446789,
+    "FIELD3":137.84273
+  },
+  {
+    "FIELD1":"kabupaten sarmi",
+    "FIELD2":-2.4678144,
+    "FIELD3":139.20308
+  },
+  {
+    "FIELD1":"kabupaten supiori",
+    "FIELD2":-0.7295099,
+    "FIELD3":135.63852
+  },
+  {
+    "FIELD1":"kabupaten tolikara",
+    "FIELD2":-3.481132,
+    "FIELD3":138.47873
+  },
+  {
+    "FIELD1":"kabupaten waropen",
+    "FIELD2":-2.8435717,
+    "FIELD3":136.67053
+  },
+  {
+    "FIELD1":"kabupaten yahukimo",
+    "FIELD2":-4.493972,
+    "FIELD3":139.528
+  },
+  {
+    "FIELD1":"kabupaten yalimo",
+    "FIELD2":-3.7852848,
+    "FIELD3":139.4466
+  },
+  {
+    "FIELD1":"kota jayapura",
+    "FIELD2":-2.5916026,
+    "FIELD3":140.669
+  },
+  {
+    "FIELD1":"papua barat",
+    "FIELD2":-1.3361154,
+    "FIELD3":133.17471
+  },
+  {
+    "FIELD1":"kabupaten fakfak",
+    "FIELD2":-3.097706,
+    "FIELD3":133.01949
+  },
+  {
+    "FIELD1":"kabupaten kaimana",
+    "FIELD2":-3.288406,
+    "FIELD3":133.94368
+  },
+  {
+    "FIELD1":"kabupaten manokwari",
+    "FIELD2":-0.8614531,
+    "FIELD3":134.06204
+  },
+  {
+    "FIELD1":"kabupaten maybrat",
+    "FIELD2":-1.2970979,
+    "FIELD3":132.3151
+  },
+  {
+    "FIELD1":"kabupaten raja ampat",
+    "FIELD2":-1.0915151,
+    "FIELD3":130.87785
+  },
+  {
+    "FIELD1":"kabupaten sorong",
+    "FIELD2":-0.8819986,
+    "FIELD3":131.29549
+  },
+  {
+    "FIELD1":"kabupaten sorong selatan",
+    "FIELD2":-1.7657744,
+    "FIELD3":132.15727
+  },
+  {
+    "FIELD1":"kabupaten tambrauw",
+    "FIELD2":-0.781856,
+    "FIELD3":132.39384
+  },
+  {
+    "FIELD1":"kabupaten teluk bintuni",
+    "FIELD2":-1.9056848,
+    "FIELD3":133.32947
+  },
+  {
+    "FIELD1":"kabupaten teluk wondama",
+    "FIELD2":-2.85517,
+    "FIELD3":134.32365
+  },
+  {
+    "FIELD1":"kota sorong",
+    "FIELD2":-0.8819986,
+    "FIELD3":131.29549
+  }
+]

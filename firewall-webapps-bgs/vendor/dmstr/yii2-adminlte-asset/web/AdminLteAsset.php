@@ -21,6 +21,7 @@ class AdminLteAsset extends AssetBundle
 		'plugins/jasondavies/d3.layout.cloud.js',
 		'plugins/jasondavies/jasondavis-start.js',
         'plugins/chartjs/Chart.min.js',
+        'plugins/firewall/monitoring.js',
         'plugins/fastclick/fastclick.min.js',
         'plugins/datatables/jquery.dataTables.min.js',
         'plugins/datatables/dataTables.bootstrap.min.js',

@@ -56,26 +56,10 @@ use common\models\User;
                             [
                                 'label' => 'Monitoring', 
                                 'icon' => 'fa fa-desktop', 
-                                'url' => '#',
-                                'items' => [
-                                    ['label' => 'Crawling', 'icon' => 'fa fa-hand-grab-o', 'url' => ['/site/crawling']],
-                                    ['label' => 'Cleaning', 'icon' => 'fa fa-filter', 'url' => ['/site/cleaning']],
-                                    ['label' => 'Classification', 'icon' => 'fa fa-clone', 'url' => ['/site/classification']],
-                                    [
-                                        'label' => 'Analysis', 
-                                        'icon' => 'fa fa-line-chart', 
-                                        'url' => '#',
-                                        'items' => [
-                                            ['label' => 'Sentiment', 'icon' => 'fa fa-star-o', 'url' => '#'],
-                                            ['label' => 'Socmed', 'icon' => 'fa fa-weixin', 'url' => '#'],
-                                            ['label' => 'Tag CLoud', 'icon' => 'fa fa-tags', 'url' => '#'],
-                                            ['label' => 'Map', 'icon' => 'fa fa-map-o', 'url' => '#'],
-                                        ],
-                                    ],
-                                ],
+                                'url' => ['/site/monitoring'],
+                                
                             ],
-                        
-                        
+                    
                     
                     [
                         'label' => 'Result', 
@@ -94,12 +78,81 @@ use common\models\User;
                                         'icon' => 'fa fa-weixin', 
                                         'url' => '#',
                                         'items' => [
-                                            ['label' => 'Facebook', 'icon' => 'fa fa-facebook-square', 'url' => ['/site/resultnetworkfb']],
-                                            ['label' => 'Twitter', 'icon' => 'fa fa-twitter', 'url' => ['/site/resultnetworktwitter']], 
+                                                [
+                                                    'label' => 'Faceook', 
+                                                    'icon' => 'fa fa-facebook-square', 
+                                                    'url' => '#',
+                                                    'items' => [
+                                                         ['label' => 'ALL Contents', 'icon' => 'fa fa-circle-o', 'url' => ['/site/resultnetworkfb']],
+                                                         ['label' => 'Radikalisme', 'icon' => 'fa fa-circle-o', 'url' => ['/site/resultnetworkfb']],
+                                                         ['label' => 'Terorisme', 'icon' => 'fa fa-circle-o', 'url' => ['/site/resultnetworkfb']],
+                                                         ['label' => 'Judi Online', 'icon' => 'fa fa-circle-o', 'url' => ['/site/resultnetworkfb']],
+                                                         ['label' => 'Narkoba', 'icon' => 'fa fa-circle-o', 'url' => ['/site/resultnetworkfb']],
+                                                         ['label' => 'Separatisme', 'icon' => 'fa fa-circle-o', 'url' => ['/site/resultnetworkfb']],
+                                                         ['label' => 'Pornografi', 'icon' => 'fa fa-circle-o', 'url' => ['/site/resultnetworkfb']],
+                                                         ['label' => 'Prostitusi', 'icon' => 'fa fa-circle-o', 'url' => ['/site/resultnetworkfb']],
+                                                        
+                                                     ]
+
+                                                ],
+                                                [
+                                                    'label' => 'Twitter', 
+                                                    'icon' => 'fa fa-twitter', 
+                                                    'url' => '#',
+                                                    'items' => [
+
+                                                     ['label' => 'ALL Contents', 'icon' => 'fa fa-circle-o', 'url' => ['/site/resultnetworktwitter']],
+                                                     ['label' => 'Radikalisme', 'icon' => 'fa fa-circle-o', 'url' => ['/site/resultnetworktwitter']],
+                                                     ['label' => 'Terorisme', 'icon' => 'fa fa-circle-o', 'url' => ['/site/resultnetworktwitter']],
+                                                     ['label' => 'Judi Online', 'icon' => 'fa fa-circle-o', 'url' => ['/site/resultnetworktwitter']],
+                                                     ['label' => 'Narkoba', 'icon' => 'fa fa-circle-o', 'url' => ['/site/resultnetworktwitter']],
+                                                     ['label' => 'Separatisme', 'icon' => 'fa fa-circle-o', 'url' => ['/site/resultnetworktwitter']],
+                                                     ['label' => 'Pornografi', 'icon' => 'fa fa-circle-o', 'url' => ['/site/resultnetworktwitter']],
+                                                     ['label' => 'Prostitusi', 'icon' => 'fa fa-circle-o', 'url' => ['/site/resultnetworktwitter']], 
+
+
+                                                    ]
+                                                ],
+                                           
                                         ]
                                     ],
-                                    ['label' => 'Tag CLoud', 'icon' => 'fa fa-tags', 'url' => ['/site/resulttagcloud']],
-                                    ['label' => 'Map', 'icon' => 'fa fa-map-o', 'url' => ['/site/resultmap']],
+                                    [
+                                        'label' => 'Tag Cloud', 
+                                        'icon' => 'fa fa-tags', 
+                                        'url' => '#',
+                                        'items' => [
+                                            ['label' => 'ALL', 'icon' => 'fa fa-circle-o', 'url' => ['/site/resulttagcloud']],
+                                            ['label' => 'Radikalisme', 'icon' => 'fa fa-circle-o', 'url' => ['/site/resulttagcloud']],
+                                            ['label' => 'Terorisme', 'icon' => 'fa fa-circle-o', 'url' => ['/site/resulttagcloud']],
+                                            ['label' => 'Judi Online', 'icon' => 'fa fa-circle-o', 'url' => ['/site/resulttagcloud']],
+                                            ['label' => 'Narkoba', 'icon' => 'fa fa-circle-o', 'url' => ['/site/resulttagcloud']],
+                                            ['label' => 'Separatisme', 'icon' => 'fa fa-circle-o', 'url' => ['/site/resulttagcloud']],
+                                            ['label' => 'Pornografi', 'icon' => 'fa fa-circle-o', 'url' => ['/site/resulttagcloud']],
+                                            ['label' => 'Prostitusi', 'icon' => 'fa fa-circle-o', 'url' => ['/site/resulttagcloud']],
+
+                                        ]
+
+
+                                    ],
+
+                                    
+                                    [
+                                        'label' => 'MAP', 
+                                        'icon' => 'fa fa-map', 
+                                        'url' => '#',
+                                        'items' => [
+
+                                        ['label' => 'ALL Konten', 'icon' => 'fa fa-circle-o', 'url' => ['/site/resultmapall']],
+                                        ['label' => 'Radikalisme', 'icon' => 'fa fa-circle-o', 'url' => ['/site/resultmapradikalisme']],
+                                        ['label' => 'Terorisme', 'icon' => 'fa fa-circle-o', 'url' => ['/site/resultmapterorisme']],
+                                        ['label' => 'Judi Online', 'icon' => 'fa fa-circle-o', 'url' => ['/site/resultmapjudionline']],
+                                        ['label' => 'Narkoba', 'icon' => 'fa fa-circle-o', 'url' => ['/site/resultmapnarkoba']],
+                                        ['label' => 'Separatisme', 'icon' => 'fa fa-circle-o', 'url' => ['/site/resultmapseparatisme']],
+                                        ['label' => 'Pornografi', 'icon' => 'fa fa-circle-o', 'url' => ['/site/resultmappornografi']],
+                                        ['label' => 'Prostitusi', 'icon' => 'fa fa-circle-o', 'url' => ['/site/resultmapprostitusi']],
+                                        ]
+                                    ],
+                                    
                                 ]
                             ],
                         ],
@@ -110,7 +163,7 @@ use common\models\User;
                         'icon' => 'fa fa-calendar-check-o', 
                         'url' => '#',
                         'items' => [
-                            ['label' => 'Website', 'icon' => 'fa fa-firefox', 'url' => ['/site/reportweb']],
+                            ['label' => 'Website', 'icon' => 'fa fa-firefox', 'url' => ['/web/index']],
                             ['label' => 'Facebook', 'icon' => 'fa fa-facebook-square', 'url' => '#'],
                             ['label' => 'Twitter', 'icon' => 'fa fa-twitter', 'url' => '#'],
                         ],

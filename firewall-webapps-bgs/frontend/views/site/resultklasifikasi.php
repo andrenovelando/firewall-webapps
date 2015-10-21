@@ -1,25 +1,87 @@
 <?php
+//label
+$handle = fopen("./data result/classification/jumlah data.csv","r");
+$total="";
+$terklasifikasi="";
+$tidak_terklasifikasi="";
+while(! feof($handle))
+  {
+    $data=fgetcsv($handle);
+    $total=$data[0];
+    $terklasifikasi=$data[1];
+    $tidak_terklasifikasi=$data[2];
+  }
+fclose($handle);
 
-/* @var $this yii\web\View */
+//rank
+$rank = fopen("./data result/classification/rank.csv","r");
+$total_jumlah=0;
+$jumlah=array();
+$value=array();
+while(! feof($rank))
+  {
+    $data=fgetcsv($rank);
+    $total_jumlah=$total_jumlah+$data[1];
+    $dummy=(int)$data[1];
+    $jumlah[$data[0]]=$dummy;
+    array_push($value, $dummy);
+
+  }
+rsort($value);
+asort($jumlah);
+$tenHighest = array_slice($jumlah, -7, null, true);
+$tenHighestKeys = array_keys($tenHighest);
+fclose($rank);
+
+
+//tabel
+$tabel = fopen("./data result/classification/tabel.csv","r");
+$url=array();
+$jumlah_x=array();
+while(! feof($tabel))
+  {
+    $data=fgetcsv($tabel);
+    array_push($url, $data[0]);
+    array_push($jumlah_x, $data[1]);
+  }
+fclose($tabel);
+
+//pie chart
+$pieC = fopen("./data result/classification/pie chart.csv","r");
+$konten_pie=array();
+$jumlah_pie=array();
+while(! feof($pieC))
+  {
+    $data=fgetcsv($pieC);
+    array_push($konten_pie, $data[0]);
+    array_push($jumlah_pie, (int)$data[1]);
+  }
+fclose($pieC);
+
+
 
 $this->
  title = 'CLASSIFICATION RESULT';
 ?>
 
-<script src="/advanced/backend/web/plugins/jQuery/jQuery-2.1.4.min.js"></script>
-<script src="/advanced/backend/web/plugins/chartjs/Chart.min.js"></script>
-<script src="/advanced/backend/web/plugins/fastclick/fastclick.min.js"></script>
+<script src="../../vendor/almasaeed2010/adminlte/plugins/jQuery/jQuery-2.1.4.min.js"></script>
+<script src="../../vendor/almasaeed2010/adminlte/plugins/chartjs/Chart.min.js"></script>
+<script src="../../vendor/almasaeed2010/adminlte/plugins/fastclick/fastclick.min.js"></script>
+<script src="../../vendor/almasaeed2010/adminlte/bootstrap/js/bootstrap.min.js"></script>
+<script src="../../vendor/almasaeed2010/adminlte/plugins/datatables/jquery.dataTables.min.js"></script>
+<script src="../../vendor/almasaeed2010/adminlte/plugins/datatables/dataTables.bootstrap.min.js"></script>
+<script src="../../vendor/almasaeed2010/adminlte/plugins/slimScroll/jquery.slimscroll.min.js"></script>
+<script src="../../vendor/almasaeed2010/adminlte/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js"></script>
+<script src="../../vendor/almasaeed2010/adminlte/plugins/jvectormap/jquery-jvectormap-idn.js"></script>
 
-<script src="/advanced/backend/web/plugins/datatables/jquery.dataTables.min.js"></script>
-<script src="/advanced/backend/web/plugins/datatables/dataTables.bootstrap.min.js"></script>
-<script src="/advanced/backend/web/plugins/slimScroll/jquery.slimscroll.min.js"></script>
+
+ 
 
 
 
 
-<div class="row">
 
-<div class="col-lg-6 col-xs-6">
+
  <div class="box box-default">
                 <div class="box-header bg-black  ">
                   <h3 class="box-title">Chart Data</h3>
@@ -28,20 +90,17 @@ $this->
                   </div>
                 </div><!-- /.box-header -->
                 <div class="box-body ">
-                 
+                <div class="row">
+                 <div class="col-lg-6 col-xs-6" >
                       <div class="chart-responsive">
                         <canvas id="pieChart" height="150"></canvas>
                       </div><!-- ./chart-responsive -->
-                    
-                </div><!-- /.box-body -->
-                <div class="box-footer no-padding">
-                
-                </div><!-- /.footer -->
-              </div><!-- /.box -->
-</div>
+                 </div>   
 
-<div class="col-lg-6 col-xs-6" >
-  <div class="info-box bg-black" >
+
+
+                 <div class="col-lg-6 col-xs-6" >
+                <div class="info-box bg-#3399FF" >
                 <span class="info-box-icon"><i class="fa fa-cloud"></i></span>
                 <div class="info-box-content">
                 <div row>  
@@ -49,27 +108,31 @@ $this->
                   <h4> Jumlah Data: </h4>
                   </div>
                   <div class="col-lg-3 col-xs-6" >
-                <h2 class="text-center">41,410</h2>
+                  <?php echo '<h2 class="text-center">'.$total.'</h2>';?>
+               
                 </div>
                   </div>
                 </div><!-- /.info-box-content -->
               </div><!-- /.info-box -->
-</div>
+              </div>
 
-<div class="col-lg-2 col-xs-2" >
+
+                 <div class="col-lg-2 col-xs-2" >
               <!-- small box -->
-              <div class="small-box bg-gray">
+              <div class="small-box" style="background: #3399FF">
                 <div class="inner">
-                <h3 class="text-center">70</h3>
-                <p class="text-center">Terklasifikasi</p>                  
+                <?php echo '<h3 class="text-center">'.$terklasifikasi.'</h3>';?>
+                
+                <p class="text-center">Terklasifikasi</p>  
+
                 </div>     
               </div>
             </div><!-- ./col -->
             <div class="col-lg-2 col-xs-2">
               <!-- small box -->
-              <div class="small-box bg-gray">
+              <div class="small-box" style="background: #FF66FF">
                 <div class="inner">
-                 <h3 class="text-center">70</h3>
+                 <?php echo '<h3 class="text-center">'.$tidak_terklasifikasi.'</h3>';?>
                 <p class="text-center">Tidak Terklasifikasi</p>     
                 </div>
                 <div class="icon">
@@ -81,9 +144,12 @@ $this->
 
             <div class="col-lg-2 col-xs-2">
               <!-- small box -->
-              <div class="small-box bg-gray">
+              <div class="small-box bg-black">
                 <div class="inner">
-                <h3 class="text-center">70 </h3>
+                <?php
+                $ratio1=($terklasifikasi/$total)*100;
+                $ratio2=($tidak_terklasifikasi/$total)*100;
+                echo '<h3 class="text-center">'.(int)$ratio1.':'.(int)$ratio2.'</h3>';?>
                 <p class="text-center">Ratio</p>     
                 </div>
                 <div class="icon">
@@ -93,205 +159,134 @@ $this->
               </div>
             </div><!-- ./col -->
 
-
-
-</div>
-<!--bar chart-->
-
-<div class="box">
-                <div class="box-header with-border bg-black">
+                </div><!-- /.row -->
+                <div class="box-header with-border bg-white">
                 
-               
-          <div class="btn-group">
-                          <button type="button" class="btn bg-black btn-flat">Konten 1</button>
-                          <button type="button" class="btn bg-black btn-flat">Konten 2</button>
-                          <button type="button" class="btn bg-black btn-flat">Konten 3</button>
-                          <button type="button" class="btn bg-black btn-flat">Konten 4</button>
-                          <button type="button" class="btn bg-black btn-flat">Konten 5</button>
-                          <button type="button" class="btn bg-black btn-flat">Konten 6</button>
-                          <button type="button" class="btn bg-black btn-flat">Konten 7</button>
-                        </div>
-
-
+<div class="box-header with-border bg-white">
+                <h3 class="box-title">Bar Chart</h3>
                 </div>
-                <div class="box-body">
-
-
-<div row>
+               <div row>
 
 <div class="col-lg-8 col-xs-4">
   <div class="chart">
-                    <canvas id="barChart" style="width: 700px; height: 525px"></canvas>
+                    <canvas id="barChart" style="width: 700px; height: 400px"></canvas>
           
                   </div>
 </div>
 
 <div class="col-lg-4 col-xs-4">
     <p class="text-center">
-                        <strong>Top 10 Cities</strong>
+                        <strong>Classification Rank</strong>
                       </p>
-                      <div class="progress-group">
-                        <span class="progress-text">Add Products to Cart</span>
-                        <span class="progress-number"><b>160</b>/200</span>
-                        <div class="progress sm">
-                          <div class="progress-bar progress-bar-aqua" style="width: 80%"></div>
-                        </div>
-                      </div><!-- /.progress-group -->
-                      <div class="progress-group">
-                        <span class="progress-text">Complete Purchase</span>
-                        <span class="progress-number"><b>310</b>/400</span>
-                        <div class="progress sm">
-                          <div class="progress-bar progress-bar-red" style="width: 80%"></div>
-                        </div>
-                      </div><!-- /.progress-group -->
-                      <div class="progress-group">
-                        <span class="progress-text">Visit Premium Page</span>
-                        <span class="progress-number"><b>480</b>/800</span>
-                        <div class="progress sm">
-                          <div class="progress-bar progress-bar-green" style="width: 80%"></div>
-                        </div>
-                      </div><!-- /.progress-group -->
-                      <div class="progress-group">
-                        <span class="progress-text">Send Inquiries</span>
-                        <span class="progress-number"><b>250</b>/500</span>
-                        <div class="progress sm">
-                          <div class="progress-bar progress-bar-yellow" style="width: 80%"></div>
-                        </div>
-                      </div><!-- /.progress-group -->
-                       <div class="progress-group">
-                        <span class="progress-text">Add Products to Cart</span>
-                        <span class="progress-number"><b>160</b>/200</span>
-                        <div class="progress sm">
-                          <div class="progress-bar progress-bar-aqua" style="width: 80%"></div>
-                        </div>
-                      </div><!-- /.progress-group -->
-                      <div class="progress-group">
-                        <span class="progress-text">Complete Purchase</span>
-                        <span class="progress-number"><b>310</b>/400</span>
-                        <div class="progress sm">
-                          <div class="progress-bar progress-bar-red" style="width: 80%"></div>
-                        </div>
-                      </div><!-- /.progress-group -->
-                      <div class="progress-group">
-                        <span class="progress-text">Visit Premium Page</span>
-                        <span class="progress-number"><b>480</b>/800</span>
-                        <div class="progress sm">
-                          <div class="progress-bar progress-bar-green" style="width: 80%"></div>
-                        </div>
-                      </div><!-- /.progress-group -->
-                      <div class="progress-group">
-                        <span class="progress-text">Send Inquiries</span>
-                        <span class="progress-number"><b>250</b>/500</span>
-                        <div class="progress sm">
-                          <div class="progress-bar progress-bar-yellow" style="width: 80%"></div>
-                        </div>
-                      </div><!-- /.progress-group -->
-                       <div class="progress-group">
-                        <span class="progress-text">Add Products to Cart</span>
-                        <span class="progress-number"><b>160</b>/200</span>
-                        <div class="progress sm">
-                          <div class="progress-bar progress-bar-aqua" style="width: 80%"></div>
-                        </div>
-                      </div><!-- /.progress-group -->
-                      <div class="progress-group">
-                        <span class="progress-text">Complete Purchase</span>
-                        <span class="progress-number"><b>310</b>/400</span>
-                        <div class="progress sm">
-                          <div class="progress-bar progress-bar-red" style="width: 80%"></div>
-                        </div>
-
+                       <?php
+                      for ($i=0; $i < 7 ; $i++) { 
+                        echo '<div class="progress-group">';
+                        echo '<span class="progress-text">'.$tenHighestKeys[6-$i].'</span>';
+                        echo '<span class="progress-number"><b>'.$value[$i].'</b>/'.$total_jumlah.'</span>';
+                        echo '<div class="progress sm">';
+                        $persentase=($value[$i]/$total_jumlah)*100;
+                        echo '<div class="progress-bar progress-bar-red" style="width: '.$persentase.'%"></div>';
+                        echo '</div> </div>';
+                      }
+                      ?>
 
                
 </div> <!-- /.div col -->
 </div> <!-- /.div row -->
 
 
-</div>
-</div>
+</div> 
 
-</div>
+<div class="box-header with-border bg-white">
+                
+                </div>
+<div class="box-header with-border bg-black">
+                <h3 class="box-title">Classification Table</h3>
+                </div>
+<br>
+ <table id="example1" class="table table-bordered table-striped">
 
-
-<!-- tabel-->
-<div class="box">
-                <div class="box-header with-border bg-black"><h3 class="box-title">Classification Table</h3>
-                	<div class="box-tools pull-right">
-                    <button class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
-    
-                  </div>
-                  </div>
-
-                <div class="box-body">
-                  <table id="example1" class="table table-bordered table-striped">
-                    <thead>
+                <thead>
                       <tr>
-                        <th>Nama Website</th>
                         <th>url</th>
-                        <th>konten 2</th>
-                        <th>konten 3</th>
-                        <th>konten 4</th>
+                        <th>Jumlah terklasifikasi</th>
                       </tr>
                     </thead>
                     <tbody>
-                      <tr>
-                        <td>juara</td>
-                        <td>http://www.juara.net/read/sepakbola/spanyol/127523-ronaldo.terlibat.cinta.lokasi</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                      </tr>
-                      <tr>
-                        <td>megapolitan.kompas</td>
-                        <td>http://megapolitan.kompas.com/read/2015/10/12/12421211/Korban.Kebakaran.Pasar.Lontar.Tanah.Abang.Menanti.Arahan.Pemerintah?utm_source=WP&utm_medium=box&utm_campaign=Kknwp</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                      </tr>
+              <?php
+for ($i=0; $i <count($url) ; $i++) { 
+  # code...
+
+                   echo   '<tr>';
+                   echo     '<td>'.$url[$i].'</td>';
+                   echo     '<td>'.$jumlah_x[$i].'</td>';
+                   echo   '</tr>';
+
+  }
+                    ?>
                     </tbody>
                   </table>
-                </div><!-- /.box-body -->
-              </div><!-- /.box -->
-</section>
 
-<script src="../../vendor/almasaeed2010/adminlte/plugins/jQuery/jQuery-2.1.4.min.js"></script>
+
+
+                <div class="box-footer no-padding">
+                
+                </div><!-- /.footer -->
+              </div><!-- /.box -->
+</div>
+
+
+
+         
+
+
+
+
+<!--bar chart-->
+
+<!-- tabel-->
+
+
 <script>
       $(function () {
         $("#example1").DataTable();
         $('#example2').DataTable({
           "paging": true,
-          "lengthChange": false,
-          "searching": false,
+          "lengthChange": true,
+          "searching": true,
           "ordering": true,
           "info": true,
-          "autoWidth": false
+          "autoWidth": true
         });
+
+        //pie
+    
+        var jumlahpie1= "<?php echo $jumlah_pie[0]; ?>";
+        var jumlahpie2= "<?php echo $jumlah_pie[1]; ?>";
+        var jumlahpie3= "<?php echo $jumlah_pie[2]; ?>";
+        var jumlahpie4= "<?php echo $jumlah_pie[3]; ?>";
+        var jumlahpie5= "<?php echo $jumlah_pie[4]; ?>";
+        var jumlahpie6= "<?php echo $jumlah_pie[5]; ?>";
+        var jumlahpie7= "<?php echo $jumlah_pie[6]; ?>";
+  
+    
+        var terklasifikasi= "<?php echo $terklasifikasi; ?>";
+        var tidak_terklasifikasi= "<?php echo $tidak_terklasifikasi; ?>";
 
         var pieChartCanvas = $("#pieChart").get(0).getContext("2d");
         var pieChart = new Chart(pieChartCanvas);
         var PieData = [
           {
-            value: 70,
-            color: "#f56954",
-            highlight: "#f56954",
-            label: "Judi"
+            value: terklasifikasi,
+            color: "#3399FF",
+            highlight: "#3399FF",
+            label: "Terklasifikasi"
           },
           {
-            value: 15,
-            color: "#00a65a",
-            highlight: "#00a65a",
-            label: "Konten 2"
-          },
-          {
-            value: 5,
-            color: "#f39c12",
-            highlight: "#f39c12",
-            label: "Konten 3"
-          },
-          {
-            value: 10,
-            color: "#00c0ef",
-            highlight: "#00c0ef",
-            label: "Konten 4"
+            value: tidak_terklasifikasi,
+            color: "#FF66FF",
+            highlight: "#FF66FF",
+            label: "Tidak terklasifikasi"
           }
         ];
         var pieOptions = {
@@ -327,16 +322,10 @@ $this->
 
 //bar chart
  var areaChartData = {
-          labels: ["Konten 1", "Konten 2", "Konten 3", "Konten 4", "Konten 5", "Konten 6"],
+          labels: ["Perjudian", "Prostitusi", "Radikalisme", "Separatisme", "Perjudian", "Narkoba", "Terorisme"],
           datasets: [
             {
-              data: [65, 59, 80, 81, 56, 55]
-            },
-            {
-              data: [12, 23, 34, 66, 56, 12]
-            },
-            { 
-              data: [28, 48, 40, 19, 86, 27]
+              data: [jumlahpie1, jumlahpie2, jumlahpie3, jumlahpie4, jumlahpie5, jumlahpie6, jumlahpie7]
             }
           ]
         };
@@ -347,12 +336,6 @@ var barChartCanvas = $("#barChart").get(0).getContext("2d");
         barChartData.datasets[0].fillColor = "#3D9970";
         barChartData.datasets[0].strokeColor = "#3D9970";
         barChartData.datasets[0].pointColor = "#3D9970";
-        barChartData.datasets[1].fillColor = "#CF0053";
-        barChartData.datasets[1].strokeColor = "#CF0053";
-        barChartData.datasets[1].pointColor = "#CF0053";
-         barChartData.datasets[2].fillColor = "#AAAAAA";
-        barChartData.datasets[2].strokeColor = "#AAAAAA";
-        barChartData.datasets[2].pointColor = "#AAAAAA";
         var barChartOptions = {
           //Boolean - Whether the scale should start at zero, or an order of magnitude down from the lowest value
           scaleBeginAtZero: true,

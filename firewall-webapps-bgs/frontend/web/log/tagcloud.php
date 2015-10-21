@@ -14,7 +14,7 @@ $newArray = array();
 function csvToArray($file, $delimiter) { 
   if (($handle = fopen($file, 'r')) !== FALSE) { 
     $i = 0; 
-    while (($lineArray = fgetcsv($handle, 4000, $delimiter, '"')) !== FALSE) { 
+    while (($lineArray = fgetcsv($handle, 0, $delimiter, '"')) !== FALSE) { 
       for ($j = 0; $j < count($lineArray); $j++) { 
         $arr[$i][$j] = $lineArray[$j]; 
       } 

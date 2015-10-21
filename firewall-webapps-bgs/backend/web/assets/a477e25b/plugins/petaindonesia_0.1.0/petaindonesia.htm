@@ -1,0 +1,26 @@
+<html>
+ <head>
+		<script type="text/javascript" src="jquery.min.js"></script> 
+		<script type="text/javascript" src="raphael-min.js"></script>
+		<script type="text/javascript">
+			$( document ).ready(function() {
+				//gambar peta
+				$.getScript("petaindonesia.js");				
+				//jika user mengklik propinsi event "petaklik" akan tertrigger
+				//ambil idwilayahnya						
+				$( "#map" ).on( "petaklik", function(event, idwilayah) {
+					alert("Anda mengklik id: "+idwilayah);
+				});				
+			});
+		</script>
+ </head>
+ <body>
+		<h2> Demo jPetaIndonesia  </h2>
+		<br>
+		<!-- harus ada <div> ber-id "map" untuk meletakkan peta -->	
+		<div id="map"></div>
+		<p>
+		Download: <a href="http://yuliadi.com/petaindonesia/petaindonesia_0.1.0.zip">(termasuk jquery-min dan raphael), demo ini dan dump sql berisi kode propinsi</a>	
+		</p>
+ </body>
+</html>

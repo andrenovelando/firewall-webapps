@@ -1,0 +1,132 @@
+[
+  {
+    "FIELD1":"sumatera",
+    "FIELD2":"konten 1",
+    "FIELD3":100
+  },
+  {
+    "FIELD1":"aceh",
+    "FIELD2":"konten 2",
+    "FIELD3":50
+  },
+  {
+    "FIELD1":"kabupaten aceh barat",
+    "FIELD2":"konten 3",
+    "FIELD3":10
+  },
+  {
+    "FIELD1":"kabupaten aceh barat daya",
+    "FIELD2":"konten 4",
+    "FIELD3":40
+  },
+  {
+    "FIELD1":"kabupaten aceh besar",
+    "FIELD2":"konten 5",
+    "FIELD3":500
+  },
+  {
+    "FIELD1":"kabupaten aceh jaya",
+    "FIELD2":"konten 6",
+    "FIELD3":1000
+  },
+  {
+    "FIELD1":"kabupaten aceh selatan",
+    "FIELD2":"konten 7",
+    "FIELD3":3000
+  },
+  {
+    "FIELD1":"kabupaten aceh singkil",
+    "FIELD2":"konten 1",
+    "FIELD3":1000
+  },
+  {
+    "FIELD1":"kabupaten aceh tamiang",
+    "FIELD2":"konten 2",
+    "FIELD3":200
+  },
+  {
+    "FIELD1":"kabupaten aceh tengah",
+    "FIELD2":"konten 3",
+    "FIELD3":30
+  },
+  {
+    "FIELD1":"kabupaten aceh tenggara",
+    "FIELD2":"konten 4",
+    "FIELD3":100
+  },
+  {
+    "FIELD1":"kabupaten aceh timur",
+    "FIELD2":"konten 5",
+    "FIELD3":400
+  },
+  {
+    "FIELD1":"kabupaten aceh utara",
+    "FIELD2":"konten 6",
+    "FIELD3":100
+  },
+  {
+    "FIELD1":"kabupaten bener meriah",
+    "FIELD2":"konten 7",
+    "FIELD3":300
+  },
+  {
+    "FIELD1":"kabupaten bireuen",
+    "FIELD2":"konten 1",
+    "FIELD3":500
+  },
+  {
+    "FIELD1":"kabupaten gayo lues",
+    "FIELD2":"konten 1",
+    "FIELD3":600
+  },
+  {
+    "FIELD1":"kabupaten nagan raya",
+    "FIELD2":"konten 2",
+    "FIELD3":700
+  },
+  {
+    "FIELD1":"kabupaten pidie",
+    "FIELD2":"konten 3",
+    "FIELD3":200
+  },
+  {
+    "FIELD1":"kabupaten pidie jaya",
+    "FIELD2":"konten 5",
+    "FIELD3":1000
+  },
+  {
+    "FIELD1":"kabupaten simeulue",
+    "FIELD2":"konten 6",
+    "FIELD3":5000
+  },
+  {
+    "FIELD1":"kota banda aceh",
+    "FIELD2":"konten 1",
+    "FIELD3":20
+  },
+  {
+    "FIELD1":"kota langsa",
+    "FIELD2":"konten 7",
+    "FIELD3":100
+  },
+  {
+    "FIELD1":"kota lhokseumawe",
+    "FIELD2":"konten 2",
+    "FIELD3":300
+  },
+  {
+    "FIELD1":"kota sabang",
+    "FIELD2":"konten 4",
+    "FIELD3":95.33657
+  },
+  {
+    "FIELD1":"kota subulussalam",
+    "FIELD2":"konten 5",
+    "FIELD3":70
+  },
+  {
+    "FIELD1":"sumatera utara",
+    "FIELD2":"konten 6",
+    "FIELD3":123
+  }
+]

@@ -1,6 +1,22 @@
 <?php
 
-/* @var $this yii\web\View */
+//rank
+$rank = fopen("./data result/social network/twitter/rank.csv","r");
+$jumlah=array();
+$value=array();
+while(! feof($rank))
+  {
+    $data=fgetcsv($rank);
+    $dummy=(int)$data[1];
+    $jumlah[$data[0]]=$dummy;
+    array_push($value, $dummy);
+
+  }
+rsort($value);
+asort($jumlah);
+$tenHighest = array_slice($jumlah, -10, null, true);
+$tenHighestKeys = array_keys($tenHighest);
+fclose($rank);
 
 $this->title = 'TWITTER NETWORK ANALYSIS';
 ?>
@@ -51,7 +67,16 @@ $this->title = 'TWITTER NETWORK ANALYSIS';
 <script src="../../vendor/almasaeed2010/adminlte/plugins/sigma.js/src/misc/sigma.misc.bindEvents.js"></script>
 <script src="../../vendor/almasaeed2010/adminlte/plugins/sigma.js/src/misc/sigma.misc.bindDOMEvents.js"></script>
 <script src="../../vendor/almasaeed2010/adminlte/plugins/sigma.js/src/misc/sigma.misc.drawHovers.js"></script>
+<script src="../../vendor/almasaeed2010/adminlte/plugins/sigma.js/plugins/sigma.parsers.json/sigma.parsers.json.js"></script>
+<script src="../../vendor/almasaeed2010/adminlte/plugins/sigma.js/plugins/sigma.layout.forceAtlas2/supervisor.js"></script>
+<script src="../../vendor/almasaeed2010/adminlte/plugins/sigma.js/plugins/sigma.layout.forceAtlas2/worker.js"></script>
 <!-- END SIGMA IMPORTS -->
+
+
+
+
+
+
 <section class="content">
 <div class="box">
                 <div class="box-header with-border bg-black">
@@ -92,78 +117,19 @@ $this->title = 'TWITTER NETWORK ANALYSIS';
 
 <div class="col-lg-4 col-xs-4">
     <p class="text-center">
-                        <strong>Top 10 Cities</strong>
+                        <strong>Top 10 Player</strong>
                       </p>
-                      <div class="progress-group">
-                        <span class="progress-text">Add Products to Cart</span>
-                        <span class="progress-number"><b>160</b>/200</span>
-                        <div class="progress sm">
-                          <div class="progress-bar progress-bar-aqua" style="width: 80%"></div>
-                        </div>
-                      </div><!-- /.progress-group -->
-                      <div class="progress-group">
-                        <span class="progress-text">Complete Purchase</span>
-                        <span class="progress-number"><b>310</b>/400</span>
-                        <div class="progress sm">
-                          <div class="progress-bar progress-bar-red" style="width: 80%"></div>
-                        </div>
-                      </div><!-- /.progress-group -->
-                      <div class="progress-group">
-                        <span class="progress-text">Visit Premium Page</span>
-                        <span class="progress-number"><b>480</b>/800</span>
-                        <div class="progress sm">
-                          <div class="progress-bar progress-bar-green" style="width: 80%"></div>
-                        </div>
-                      </div><!-- /.progress-group -->
-                      <div class="progress-group">
-                        <span class="progress-text">Send Inquiries</span>
-                        <span class="progress-number"><b>250</b>/500</span>
-                        <div class="progress sm">
-                          <div class="progress-bar progress-bar-yellow" style="width: 80%"></div>
-                        </div>
-                      </div><!-- /.progress-group -->
-                       <div class="progress-group">
-                        <span class="progress-text">Add Products to Cart</span>
-                        <span class="progress-number"><b>160</b>/200</span>
-                        <div class="progress sm">
-                          <div class="progress-bar progress-bar-aqua" style="width: 80%"></div>
-                        </div>
-                      </div><!-- /.progress-group -->
-                      <div class="progress-group">
-                        <span class="progress-text">Complete Purchase</span>
-                        <span class="progress-number"><b>310</b>/400</span>
-                        <div class="progress sm">
-                          <div class="progress-bar progress-bar-red" style="width: 80%"></div>
-                        </div>
-                      </div><!-- /.progress-group -->
-                      <div class="progress-group">
-                        <span class="progress-text">Visit Premium Page</span>
-                        <span class="progress-number"><b>480</b>/800</span>
-                        <div class="progress sm">
-                          <div class="progress-bar progress-bar-green" style="width: 80%"></div>
-                        </div>
-                      </div><!-- /.progress-group -->
-                      <div class="progress-group">
-                        <span class="progress-text">Send Inquiries</span>
-                        <span class="progress-number"><b>250</b>/500</span>
-                        <div class="progress sm">
-                          <div class="progress-bar progress-bar-yellow" style="width: 80%"></div>
-                        </div>
-                      </div><!-- /.progress-group -->
-                       <div class="progress-group">
-                        <span class="progress-text">Add Products to Cart</span>
-                        <span class="progress-number"><b>160</b>/200</span>
-                        <div class="progress sm">
-                          <div class="progress-bar progress-bar-aqua" style="width: 80%"></div>
-                        </div>
-                      </div><!-- /.progress-group -->
-                      <div class="progress-group">
-                        <span class="progress-text">Complete Purchase</span>
-                        <span class="progress-number"><b>310</b>/400</span>
-                        <div class="progress sm">
-                          <div class="progress-bar progress-bar-red" style="width: 80%"></div>
-                        </div>
-
+                      <?php
+                      for ($i=0; $i < 10 ; $i++) { 
+                        echo '<div class="progress-group">';
+                        echo '<span class="progress-text">'.$tenHighestKeys[9-$i].'</span>';
+                        echo '<span class="progress-number"><b>'.$value[$i].'</b></span>';
+                        echo '<div class="progress sm">';
+                        $persentase=($value[$i]/$value[0])* 100;
+                        echo '<div class="progress-bar progress-bar-red" style="width: '.$persentase.'%"></div>';
+                        echo '</div> </div>';
+                      }
+                      ?>
 
                
 </div> <!-- /.div col -->
@@ -176,7 +142,6 @@ $this->title = 'TWITTER NETWORK ANALYSIS';
 </div>
 
 </section>
-<script src="../../vendor/almasaeed2010/adminlte/plugins/jQuery/jQuery-2.1.4.min.js"></script>
 <script>
 /**
  * This is a basic example on how to instantiate sigma. A random graph is
@@ -186,38 +151,53 @@ $this->title = 'TWITTER NETWORK ANALYSIS';
  * The simple instance of sigma is enough to make it render the graph on the on
  * the screen, since the graph is given directly to the constructor.
  */
-var i,
-    s,
-    N = 50,
-    E = 200,
-    g = {
-      nodes: [],
-      edges: []
+ // these are just some preliminary settings 
+    var g = {
+        nodes: [],
+        edges: []
     };
 
-// Generate a random graph:
-for (i = 0; i < N; i++)
-  g.nodes.push({
-    id: 'n' + i,
-    label: 'Node ' + i,
-    x: Math.random(),
-    y: Math.random(),
-    size: Math.random(),
-    color: '#666'
-  });
+   // Create new Sigma instance in graph-container div (use your div name here) 
+   s = new sigma({
+   graph: g,
+   container: 'graph-container',
+   renderer: {
+    container: document.getElementById('graph-container'),
+    type: 'canvas'
+   },
+   settings: {
+    minNodeSize: 8,
+    maxNodeSize: 16
+   }
+   });
 
-for (i = 0; i < E; i++)
-  g.edges.push({
-    id: 'e' + i,
-    source: 'n' + (Math.random() * N | 0),
-    target: 'n' + (Math.random() * N | 0),
-    size: Math.random(),
-    color: '#ccc'
-  });
+   // first you load a json with (important!) s parameter to refer to the sigma instance   
 
-// Instantiate sigma:
-s = new sigma({
-  graph: g,
-  container: 'graph-container'
-});
+   sigma.parsers.json(
+  './data result/social network/twitter/data.json',
+        s,
+        function() {
+            // this below adds x, y attributes as well as size = degree of the node 
+
+            var i,
+                    nodes = s.graph.nodes(),
+                    len = nodes.length;
+
+            for (i = 0; i < len; i++) {
+                nodes[i].x = Math.random();
+                nodes[i].y = Math.random();
+                nodes[i].size = s.graph.degree(nodes[i].id);
+                nodes[i].color = 'rgb('+Math.round(Math.random()*256)+','+
+                      Math.round(Math.random()*256)+','+
+                      Math.round(Math.random()*256)+')'
+
+            }
+
+            // Refresh the display:
+            s.refresh();
+
+            // ForceAtlas Layout
+           // s.startForceAtlas2();
+        }
+   ); 
 </script>

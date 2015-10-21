@@ -42,7 +42,7 @@ $this->title = 'Sign Up';
         ?>
         <div class="row">
             <div class="col-xs-8">
-                <?= Html::submitButton('Signup', ['class' => 'btn btn-primary', 'name' => 'signup-button']) ?>
+                <?= Html::submitButton('Signup', ['class' => 'btn btn-primary bg-blue', 'name' => 'signup-button']) ?>
             </div>
             <div class="col-xs-8">
                 <?= Html::a('Already have an account?', ['/site/login']) ?>

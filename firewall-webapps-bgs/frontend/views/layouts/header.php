@@ -8,7 +8,7 @@ use common\models\User;
 
 <header class="main-header">
 
-    <?= Html::a('<span class="logo-mini">FI</span><span class="logo-lg"> Firewall Indonesia </span>', ['/task/index'], ['class' => 'logo']) ?>
+    <?= Html::a('<span class="logo-mini">FI</span><span class="logo-lg"> Firewall Indonesia </span>', ['/site/index'], ['class' => 'logo']) ?>
 
     <nav class="navbar navbar-static-top" role="navigation">
 

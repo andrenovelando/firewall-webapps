@@ -6,7 +6,7 @@ use common\models\User;
 
 <header class="main-header">
 
-    <?= Html::a('<span class="logo-mini">FI</span><span class="logo-lg"> Firewall Indonesia </span>', ['/user/index'], ['class' => 'logo']) ?>
+    <?= Html::a('<span class="logo-mini">FI</span><span class="logo-lg"> Firewall Indonesia </span>', ['/site/index'], ['class' => 'logo']) ?>
     <nav class="navbar navbar-static-top" role="navigation">
 
         <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">

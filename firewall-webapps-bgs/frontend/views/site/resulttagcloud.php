@@ -1,13 +1,34 @@
 <?php
 
-/* @var $this yii\web\View */
+$handle = fopen("./data result/tag cloud/tagcloud.csv","r");
+$total_jumlah=0;
+$temp1=array();
+$temp2=array();
+while(! feof($handle))
+  {
+    $data=fgetcsv($handle);
+    array_push($temp1,$data[0]);
+    array_push($temp2,$data[1]);
+  }
+$kata=array();
+$nilai=array();
+$tuple=array();
+for ($i=1; $i < count($temp1) ; $i++) { 
+  array_push($kata, $temp1[$i]);
+  array_push($nilai, $temp2[$i]);
+  $total_jumlah=$total_jumlah+$temp2[$i];
+  $dummy=(int)$temp2[$i];
+  $tuple[$temp1[$i]]=$dummy;
+}
+
+rsort($nilai);
+asort($tuple);
+$tenHighest = array_slice($tuple, -10, null, true);
+$tenHighestKeys = array_keys($tenHighest);
+fclose($handle);
 
 $this->title = 'TAG CLOUD';
 ?>
-
-
-                     
-
 
 
 <setion class="content">
@@ -16,18 +37,7 @@ $this->title = 'TAG CLOUD';
 <div class="box">
                 <div class="box-header with-border bg-black">
                 
-               
-          <div class="btn-group">
-                          <button type="button" class="btn bg-black btn-flat">Konten 1</button>
-                          <button type="button" class="btn bg-black btn-flat">Konten 2</button>
-                          <button type="button" class="btn bg-black btn-flat">Konten 3</button>
-                          <button type="button" class="btn bg-black btn-flat">Konten 4</button>
-                          <button type="button" class="btn bg-black btn-flat">Konten 5</button>
-                          <button type="button" class="btn bg-black btn-flat">Konten 6</button>
-                          <button type="button" class="btn bg-black btn-flat">Konten 7</button>
-                        </div>
-
-
+      
                 </div>
                 <div class="box-body">
 
@@ -40,79 +50,19 @@ $this->title = 'TAG CLOUD';
 
 <div class="col-lg-4 col-xs-4">
     <p class="text-center">
-                        <strong>Top 10 Cities</strong>
+                        <strong>Top 10 Words</strong>
                       </p>
-                      <div class="progress-group">
-                        <span class="progress-text">Add Products to Cart</span>
-                        <span class="progress-number"><b>160</b>/200</span>
-                        <div class="progress sm">
-                          <div class="progress-bar progress-bar-aqua" style="width: 80%"></div>
-                        </div>
-                      </div><!-- /.progress-group -->
-                      <div class="progress-group">
-                        <span class="progress-text">Complete Purchase</span>
-                        <span class="progress-number"><b>310</b>/400</span>
-                        <div class="progress sm">
-                          <div class="progress-bar progress-bar-red" style="width: 80%"></div>
-                        </div>
-                      </div><!-- /.progress-group -->
-                      <div class="progress-group">
-                        <span class="progress-text">Visit Premium Page</span>
-                        <span class="progress-number"><b>480</b>/800</span>
-                        <div class="progress sm">
-                          <div class="progress-bar progress-bar-green" style="width: 80%"></div>
-                        </div>
-                      </div><!-- /.progress-group -->
-                      <div class="progress-group">
-                        <span class="progress-text">Send Inquiries</span>
-                        <span class="progress-number"><b>250</b>/500</span>
-                        <div class="progress sm">
-                          <div class="progress-bar progress-bar-yellow" style="width: 80%"></div>
-                        </div>
-                      </div><!-- /.progress-group -->
-                       <div class="progress-group">
-                        <span class="progress-text">Add Products to Cart</span>
-                        <span class="progress-number"><b>160</b>/200</span>
-                        <div class="progress sm">
-                          <div class="progress-bar progress-bar-aqua" style="width: 80%"></div>
-                        </div>
-                      </div><!-- /.progress-group -->
-                      <div class="progress-group">
-                        <span class="progress-text">Complete Purchase</span>
-                        <span class="progress-number"><b>310</b>/400</span>
-                        <div class="progress sm">
-                          <div class="progress-bar progress-bar-red" style="width: 80%"></div>
-                        </div>
-                      </div><!-- /.progress-group -->
-                      <div class="progress-group">
-                        <span class="progress-text">Visit Premium Page</span>
-                        <span class="progress-number"><b>480</b>/800</span>
-                        <div class="progress sm">
-                          <div class="progress-bar progress-bar-green" style="width: 80%"></div>
-                        </div>
-                      </div><!-- /.progress-group -->
-                      <div class="progress-group">
-                        <span class="progress-text">Send Inquiries</span>
-                        <span class="progress-number"><b>250</b>/500</span>
-                        <div class="progress sm">
-                          <div class="progress-bar progress-bar-yellow" style="width: 80%"></div>
-                        </div>
-                      </div><!-- /.progress-group -->
-                       <div class="progress-group">
-                        <span class="progress-text">Add Products to Cart</span>
-                        <span class="progress-number"><b>160</b>/200</span>
-                        <div class="progress sm">
-                          <div class="progress-bar progress-bar-aqua" style="width: 80%"></div>
-                        </div>
-                      </div><!-- /.progress-group -->
-                      <div class="progress-group">
-                        <span class="progress-text">Complete Purchase</span>
-                        <span class="progress-number"><b>310</b>/400</span>
-                        <div class="progress sm">
-                          <div class="progress-bar progress-bar-red" style="width: 80%"></div>
-                        </div>
-
-
+                    <?php
+                      for ($i=0; $i < 10 ; $i++) { 
+                        echo '<div class="progress-group">';
+                        echo '<span class="progress-text">'.$tenHighestKeys[9-$i].'</span>';
+                        echo '<span class="progress-number"><b>'.$nilai[$i].'</b>/'.$total_jumlah.'</span>';
+                        echo '<div class="progress sm">';
+                        $persentase=($nilai[$i]/$total_jumlah)*100;
+                        echo '<div class="progress-bar progress-bar-red" style="width: '.$persentase.'%"></div>';
+                        echo '</div> </div>';
+                      }
+                      ?>
                
 </div> <!-- /.div col -->
 </div> <!-- /.div row -->

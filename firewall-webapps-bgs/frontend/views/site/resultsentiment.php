@@ -1,17 +1,61 @@
 <?php
+//pie + var
+$handle = fopen("./data result/sentiment/jumlah data.csv","r");
+$total="";
+$positif="";
+$negatif="";
+$netral="";
+while(! feof($handle))
+  {
+      $data=fgetcsv($handle);
+      $total=$data[0];
+      $positif=(int)$data[1];
+      $negatif=(int)$data[2];
+      $netral=(int)$data[3];
+  }
+fclose($handle);
 
-/* @var $this yii\web\View */
+//bar chart
+$barC = fopen("./data result/sentiment/bar chart.csv","r");
+$konten_bar=array();
+$positif_bar=array();
+$negatif_bar=array();
+$netral_bar=array();
+while(! feof($barC))
+  {
+      $data=fgetcsv($barC);
+      array_push($konten_bar, $data[0]);
+      array_push($positif_bar, (int)$data[1]);
+      array_push($negatif_bar, (int)$data[2]);
+      array_push($netral_bar, (int)$data[3]);
+  }
+fclose($barC);
+
+// tabel
+$tabel = fopen("./data result/sentiment/tabel.csv","r");
+$komentar=array();
+$sentiment=array();
+$url=array();
+while(! feof($tabel))
+  {
+    $data=fgetcsv($tabel);
+    array_push($komentar, $data[0]);
+    array_push($sentiment, $data[1]);
+    array_push($url, $data[2]);
+  }
+fclose($tabel);
+
+
 
 $this->title = 'SENTIMENT ANALYSIS';
 ?>
 
-<script src="/advanced/backend/web/plugins/jQuery/jQuery-2.1.4.min.js"></script>
-<script src="/advanced/backend/web/plugins/chartjs/Chart.min.js"></script>
-<script src="/advanced/backend/web/plugins/fastclick/fastclick.min.js"></script>
-
-<script src="/advanced/backend/web/plugins/datatables/jquery.dataTables.min.js"></script>
-<script src="/advanced/backend/web/plugins/datatables/dataTables.bootstrap.min.js"></script>
-<script src="/advanced/backend/web/plugins/slimScroll/jquery.slimscroll.min.js"></script>
+<script src="../../vendor/almasaeed2010/adminlte/plugins/jQuery/jQuery-2.1.4.min.js"></script>
+<script src="../../vendor/almasaeed2010/adminlte/plugins/chartjs/Chart.min.js"></script>
+<script src="../../vendor/almasaeed2010/adminlte/plugins/fastclick/fastclick.min.js"></script>
+<script src="../../vendor/almasaeed2010/adminlte/lugins/datatables/jquery.dataTables.min.js"></script>
+<script src="../../vendor/almasaeed2010/adminlte/plugins/datatables/dataTables.bootstrap.min.js"></script>
+<script src="../../vendor/almasaeed2010/adminlte/plugins/slimScroll/jquery.slimscroll.min.js"></script>
 
 
 
@@ -47,7 +91,7 @@ $this->title = 'SENTIMENT ANALYSIS';
                   <h4> Data Count: </h4>
                   </div>
                   <div class="col-lg-3 col-xs-6" >
-                <h2 class="text-center">41,410</h2>
+                <?php echo '<h2 class="text-center">'.$total.'</h2>';?>
                 </div>
                   </div>
                 </div><!-- /.info-box-content -->
@@ -58,8 +102,8 @@ $this->title = 'SENTIMENT ANALYSIS';
               
               <div class="small-box bg-olive">
                 <div class="inner">
-               <h3 class="text-center">70 <sup style="font-size: 20px">%</sup></h3>
-                <p class="text-center">Konten 1</p>                
+                <?php echo '<h3 class="text-center">'.$positif.'</h3>';?>
+                <p class="text-center">Positif</p>                
                 </div>
                 <div class="icon">
                   <i class=""></i>
@@ -71,8 +115,8 @@ $this->title = 'SENTIMENT ANALYSIS';
               <!-- small box -->
               <div class="small-box bg-maroon">
                 <div class="inner">
-                 <h3 class="text-center">70 <sup style="font-size: 20px">%</sup></h3>
-                <p class="text-center">Konten 1</p> 
+                  <?php echo '<h3 class="text-center">'.$negatif.'</h3>';?>
+                <p class="text-center">Negatif</p> 
                 </div>
                 <div class="icon">
                   <i class=""></i>
@@ -85,8 +129,8 @@ $this->title = 'SENTIMENT ANALYSIS';
               <!-- small box -->
               <div class="small-box bg-gray">
                 <div class="inner">
-                  <h3 class="text-center">70 <sup style="font-size: 20px">%</sup></h3>
-                <p class="text-center">Konten 1</p> 
+                  <?php echo '<h3 class="text-center">'.$netral.'</h3>';?>
+                <p class="text-center">Netral</p> 
                 </div>
                 <div class="icon">
                   <i class=""></i>
@@ -132,28 +176,24 @@ $this->title = 'SENTIMENT ANALYSIS';
                   <table id="example1" class="table table-bordered table-striped">
                     <thead>
                       <tr>
-                        <th>Nama Website</th>
-                        <th>url</th>
-                        <th>konten 2</th>
-                        <th>konten 3</th>
-                        <th>konten 4</th>
+                        <th>Komentar</th>
+                        <th>Sentiment</th>
+                        <th>URL</th>
                       </tr>
                     </thead>
                     <tbody>
-                      <tr>
-                        <td>juara</td>
-                        <td>http://www.juara.net/read/sepakbola/spanyol/127523-ronaldo.terlibat.cinta.lokasi</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                      </tr>
-                      <tr>
-                        <td>megapolitan.kompas</td>
-                        <td>http://megapolitan.kompas.com/read/2015/10/12/12421211/Korban.Kebakaran.Pasar.Lontar.Tanah.Abang.Menanti.Arahan.Pemerintah?utm_source=WP&utm_medium=box&utm_campaign=Kknwp</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                      </tr>
+                      <?php
+for ($i=0; $i <count($komentar) ; $i++) { 
+  # code...
+
+                   echo   '<tr>';
+                   echo     '<td>'.$komentar[$i].'</td>';
+                   echo     '<td>'.$sentiment[$i].'</td>';
+                   echo     '<td>'.$url[$i].'</td>';
+                   echo   '</tr>';
+
+  }
+                    ?>
                     </tbody>
                   </table>
                 </div><!-- /.box-body -->
@@ -162,7 +202,6 @@ $this->title = 'SENTIMENT ANALYSIS';
 
 </section>
 
-<script src="../../vendor/almasaeed2010/adminlte/plugins/jQuery/jQuery-2.1.4.min.js"></script>
  <script>
   $(function () {
 //tabel
@@ -177,24 +216,26 @@ $this->title = 'SENTIMENT ANALYSIS';
         });
 
 
-
+      var positif = "<?php echo $positif; ?>";
+      var negatif = "<?php echo $negatif; ?>";
+      var netral  = "<?php echo $netral; ?>";
       var pieChartCanvas = $("#pieChart").get(0).getContext("2d");
         var pieChart = new Chart(pieChartCanvas);
         var PieData = [
           {
-            value: 70,
+            value: positif,
             color: "#3D9970",
             highlight: "#3D9970",
             label: "Positif"
           },
           {
-            value: 15,
+            value: negatif,
             color: "#CF0053",
             highlight: "#CF0053",
             label: "Negatif"
           },
           {
-            value: 5,
+            value: netral,
             color: "#AAAAAA",
             highlight: "#AAAAAA",
             label: "Netral"
@@ -229,17 +270,54 @@ $this->title = 'SENTIMENT ANALYSIS';
         pieChart.Doughnut(PieData, pieOptions);
 
 //bar chart
+  
+
+        var konten_bar1= "<?php echo $konten_bar[0]; ?>";
+        var konten_bar2= "<?php echo $konten_bar[1]; ?>";
+        var konten_bar3= "<?php echo $konten_bar[2]; ?>";
+        var konten_bar4= "<?php echo $konten_bar[3]; ?>";
+        var konten_bar5= "<?php echo $konten_bar[4]; ?>";
+        var konten_bar6= "<?php echo $konten_bar[5]; ?>";
+        var konten_bar7= "<?php echo $konten_bar[6]; ?>";
+
+
+        var positif_bar1= "<?php echo $positif_bar[0]; ?>";
+        var positif_bar2= "<?php echo $positif_bar[1]; ?>";
+        var positif_bar3= "<?php echo $positif_bar[2]; ?>";
+        var positif_bar4= "<?php echo $positif_bar[3]; ?>";
+        var positif_bar5= "<?php echo $positif_bar[4]; ?>";
+        var positif_bar6= "<?php echo $positif_bar[5]; ?>";
+        var positif_bar7= "<?php echo $positif_bar[6]; ?>";
+
+        var negatif_bar1= "<?php echo $negatif_bar[0]; ?>";
+        var negatif_bar2= "<?php echo $negatif_bar[1]; ?>";
+        var negatif_bar3= "<?php echo $negatif_bar[2]; ?>";
+        var negatif_bar4= "<?php echo $negatif_bar[3]; ?>";
+        var negatif_bar5= "<?php echo $negatif_bar[4]; ?>";
+        var negatif_bar6= "<?php echo $negatif_bar[5]; ?>";
+        var negatif_bar7= "<?php echo $negatif_bar[6]; ?>";
+
+        var netral_bar1= "<?php echo $netral_bar[0]; ?>";
+        var netral_bar2= "<?php echo $netral_bar[1]; ?>";
+        var netral_bar3= "<?php echo $netral_bar[2]; ?>";
+        var netral_bar4= "<?php echo $netral_bar[3]; ?>";
+        var netral_bar5= "<?php echo $netral_bar[4]; ?>";
+        var netral_bar6= "<?php echo $netral_bar[5]; ?>";
+        var netral_bar7= "<?php echo $netral_bar[6]; ?>";
+
+
+
  var areaChartData = {
-          labels: ["Konten 1", "Konten 2", "Konten 3", "Konten 4", "Konten 5", "Konten 6"],
+          labels: [konten_bar1,konten_bar2, konten_bar3, konten_bar4, konten_bar5, konten_bar6, konten_bar7],
           datasets: [
             {
-              data: [65, 59, 80, 81, 56, 55]
+              data: [positif_bar1, positif_bar2, positif_bar3, positif_bar4, positif_bar5, positif_bar6,positif_bar7]
             },
             {
-              data: [12, 23, 34, 66, 56, 12]
+              data: [negatif_bar1, negatif_bar2, negatif_bar3, negatif_bar4, negatif_bar5, negatif_bar6,negatif_bar7]
             },
             { 
-              data: [28, 48, 40, 19, 86, 27]
+              data: [netral_bar1, netral_bar2, netral_bar3, netral_bar4, netral_bar5, netral_bar6,netral_bar7]
             }
           ]
         };

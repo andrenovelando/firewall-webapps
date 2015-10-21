@@ -28,7 +28,7 @@ class TaskController extends Controller
                 'class' => AccessControl::className(),
                 'rules' => [
                     [
-                        'actions' => ['logout', 'index', 'view', 'add', 'create', 'update', 'delete'],
+                        'actions' => ['logout', 'index', 'view', 'add', 'create', 'update', 'delete', 'filter'],
                         'allow' => true,
                         'roles' => ['@'],
                     ],
@@ -77,8 +77,8 @@ class TaskController extends Controller
                 }
                 $date = new DateTime();
                 $model->create_time = $date->getTimestamp();
-                $rootdir = 'assets/data_praktikan';
-                $dir = 'assets/data_praktikan/'.$mode->username.'_'.$model->user_id;
+                $rootdir = 'data_praktikan';
+                $dir = 'data_praktikan/'.$mode->username.'_'.$model->user_id;
                 if(is_dir($rootdir) === false){
                     mkdir($rootdir);
                 }
@@ -124,12 +124,21 @@ class TaskController extends Controller
                 }
                 
             } else {
-                $dataProvider = new ActiveDataProvider([
-                    'query' => Task::find()->andFilterWhere(['user_id' => \Yii::$app->user->identity->id]),
-                    'pagination' => [
-                        'pageSize' => 10,
-                    ],
-                ]);
+                //if($model->jenisFilter === 'All'){
+                    $dataProvider = new ActiveDataProvider([
+                        'query' => Task::find()->andFilterWhere(['user_id' => \Yii::$app->user->identity->id]),
+                        'pagination' => [
+                            'pageSize' => 10,
+                        ],
+                    ]);
+               /* }else{
+                    $dataProvider = new ActiveDataProvider([
+                        'query' => Task::find()->andFilterWhere(['user_id' => \Yii::$app->user->identity->id, 'status' => $model->jenisFilter]),
+                        'pagination' => [
+                            'pageSize' => 10,
+                        ],
+                    ]);
+                }*/
                         //find('user_id' == \Yii::$app->user->identity->id),
 
                 return $this->render('index', [
@@ -244,6 +253,36 @@ class TaskController extends Controller
             $this->findModel($id)->delete();
 
             return $this->redirect(['index']);
+        }else{
+            throw new ForbiddenHttpException;
+        }
+    }
+
+    public function actionFilter($filter)
+    {
+        if(($role = priviledge::getRole()) == 'Praktikan'){
+            $model = new Task();
+            $model->jenisFilter = $filter;
+            if($filter!='All'){
+                $dataProvider = new ActiveDataProvider([
+                    'query' => Task::find()->andFilterWhere(['user_id' => \Yii::$app->user->identity->id, 'status' => $filter]),
+                    'pagination' => [
+                        'pageSize' => 10,
+                     ],
+                ]);
+            }else{
+                $dataProvider = new ActiveDataProvider([
+                    'query' => Task::find()->andFilterWhere(['user_id' => \Yii::$app->user->identity->id]),
+                    'pagination' => [
+                        'pageSize' => 10,
+                     ],
+                ]);
+            }
+
+            return $this->render('index', [
+                'dataProvider' => $dataProvider,
+                'model' => $model
+            ]);
         }else{
             throw new ForbiddenHttpException;
         }

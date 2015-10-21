@@ -1,0 +1,30 @@
+{"nodes":
+[ 
+{
+ "id": "f",
+"label": "Falanta",
+"size":   8.75 
+},
+{
+ "id": "p",
+"label": "Pevita",
+"size":   8.75 
+},
+{
+ "id": "c",
+"label": "Chelsea",
+"size":  14.75 
+} 
+],"edges":[ 
+{
+ "id": "1",
+"source": "f",
+"target": "p" 
+},
+{
+ "id": "2",
+"source": "c",
+"target": "f" 
+}  
+
+]}
